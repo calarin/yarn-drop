@@ -30,7 +30,7 @@ jobs:
       - name: Run Yarn install
         shell: pwsh
         run: |
-          yarn install
+          yarn install --no-immutable
 
       - name: Commit generated files
         shell: pwsh
