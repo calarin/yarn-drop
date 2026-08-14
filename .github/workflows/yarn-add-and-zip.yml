@@ -51,7 +51,7 @@ jobs:
             Write-Host "Running: yarn add $env:PACKAGE_NAME@$env:PACKAGE_VERSION"
             yarn add "$env:PACKAGE_NAME@$env:PACKAGE_VERSION"
           }
-
+          
       - name: Determine ZIP filename
         id: package-info
         shell: pwsh
@@ -78,8 +78,8 @@ jobs:
               continue
             }
 
-            if ($record.type -eq "inspect" -and $record.data.version) {
-              $resolvedVersion = $record.data.version
+            if ($record.children.Version) {
+              $resolvedVersion = $record.children.Version
               break
             }
           }
