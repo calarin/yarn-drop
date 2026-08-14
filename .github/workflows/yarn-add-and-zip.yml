@@ -145,7 +145,7 @@ jobs:
           Get-Item $zipPath | Format-List FullName, Length
 
       - name: Upload ZIP
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: ${{ steps.package-info.outputs.zip_name }}
           path: ${{ runner.temp }}/${{ steps.package-info.outputs.zip_name }}
