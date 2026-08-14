@@ -57,21 +57,56 @@ jobs:
         shell: pwsh
         env:
           PACKAGE_NAME: ${{ inputs.package }}
-          PACKAGE_VERSION: ${{ inputs.version }}
         run: |
-          # Sanitize package name for use in a Windows filename.
-          $safeName = $env:PACKAGE_NAME -replace '^@', '' -replace '/', '-' -replace '[^A-Za-z0-9._-]', '-'
+          # Read the actual resolved version from the project's package.json.
+          $packageJson = Get-Content package.json -Raw | ConvertFrom-Json
 
-          if ([string]::IsNullOrWhiteSpace($env:PACKAGE_VERSION)) {
-            $versionLabel = 'latest'
+          $actualVersion = $null
+
+          if ($packageJson.dependencies.PSObject.Properties.Name -contains $env:PACKAGE_NAME) {
+            $actualVersion = $packageJson.dependencies.($env:PACKAGE_NAME)
           }
-          else {
-            $versionLabel = $env:PACKAGE_VERSION -replace '[^A-Za-z0-9._-]', '-'
+          elseif ($packageJson.devDependencies.PSObject.Properties.Name -contains $env:PACKAGE_NAME) {
+            $actualVersion = $packageJson.devDependencies.($env:PACKAGE_NAME)
+          }
+          elseif ($packageJson.peerDependencies.PSObject.Properties.Name -contains $env:PACKAGE_NAME) {
+            $actualVersion = $packageJson.peerDependencies.($env:PACKAGE_NAME)
           }
 
-          $zipName = "yarn-drop-$safeName-$versionLabel.zip"
+          if ([string]::IsNullOrWhiteSpace($actualVersion)) {
+            throw "Could not find '$env:PACKAGE_NAME' in package.json after yarn add."
+          }
 
-          Write-Host "ZIP filename: $zipName"
+          # The manifest contains the requested range (for example ^7.0.0),
+          # so ask Yarn for the actual resolved package information.
+          $info = yarn info "$env:PACKAGE_NAME" --json | ConvertFrom-Json
+
+          $resolvedVersion = $null
+
+          foreach ($record in $info) {
+            if ($record.type -eq "inspect" -and $record.data.version) {
+              $resolvedVersion = $record.data.version
+              break
+            }
+          }
+
+          if ([string]::IsNullOrWhiteSpace($resolvedVersion)) {
+            throw "Could not determine the resolved version of '$env:PACKAGE_NAME'."
+          }
+
+          $safeName = $env:PACKAGE_NAME `
+            -replace '^@', '' `
+            -replace '/', '-' `
+            -replace '[^A-Za-z0-9._-]', '-'
+
+          $safeVersion = $resolvedVersion -replace '[^A-Za-z0-9._-]', '-'
+
+          $zipName = "yarn-drop-$safeName-$safeVersion.zip"
+
+          Write-Host "Requested package: $env:PACKAGE_NAME"
+          Write-Host "Resolved version:  $resolvedVersion"
+          Write-Host "ZIP filename:      $zipName"
+
           "zip_name=$zipName" >> $env:GITHUB_OUTPUT
 
       - name: Create ZIP containing the entire project
