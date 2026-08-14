@@ -1,0 +1,5 @@
+{
+  "name": "yarn-drop",
+  "packageManager": "yarn@4.5.2",
+  "version": "0.1.0"
+}
