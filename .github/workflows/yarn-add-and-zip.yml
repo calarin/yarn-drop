@@ -103,80 +103,41 @@ jobs:
 
           "zip_name=$zipName" >> $env:GITHUB_OUTPUT
           
-      - name: Create ZIP containing the entire project
+      - name: Prepare package contents
         shell: pwsh
-        env:
-          ZIP_NAME: ${{ steps.package-info.outputs.zip_name }}
         run: |
-          Add-Type -AssemblyName System.IO.Compression
-          Add-Type -AssemblyName System.IO.Compression.FileSystem
-
           $source = (Get-Location).Path
-          $zipPath = Join-Path $env:RUNNER_TEMP $env:ZIP_NAME
+          $destination = Join-Path $env:RUNNER_TEMP "package-output"
 
-          if (Test-Path $zipPath) {
-            Remove-Item $zipPath -Force
+          if (Test-Path $destination) {
+            Remove-Item $destination -Recurse -Force
           }
 
-          Write-Host "Source directory: $source"
-          Write-Host "ZIP file:         $zipPath"
+          New-Item -ItemType Directory -Path $destination | Out-Null
 
-          $zip = [System.IO.Compression.ZipFile]::Open(
-            $zipPath,
-            [System.IO.Compression.ZipArchiveMode]::Create
-          )
+          Write-Host "Copying project to:"
+          Write-Host $destination
 
-          try {
-            Get-ChildItem -LiteralPath $source -Force -Recurse |
-              Where-Object {
-                $_.FullName -notlike "$source\.git\*" -and
-                $_.FullName -ne $zipPath
-              } |
-              ForEach-Object {
-                $relativePath = $_.FullName.Substring($source.Length + 1)
-
-                if ($_.PSIsContainer) {
-                  # Directory entries aren't strictly required for extraction,
-                  # so files are what matter. Empty directories are handled below.
-                  return
-                }
-
-                $entry = $zip.CreateEntry(
-                  $relativePath,
-                  [System.IO.Compression.CompressionLevel]::Optimal
-                )
-
-                $inputStream = $null
-                $outputStream = $null
-
-                try {
-                  $inputStream = [System.IO.File]::OpenRead($_.FullName)
-                  $outputStream = $entry.Open()
-                  $inputStream.CopyTo($outputStream)
-                }
-                finally {
-                  if ($outputStream) {
-                    $outputStream.Dispose()
-                  }
-
-                  if ($inputStream) {
-                    $inputStream.Dispose()
-                  }
-                }
-              }
-          }
-          finally {
-            $zip.Dispose()
-          }
+          Get-ChildItem -LiteralPath $source -Force |
+            Where-Object { $_.Name -ne '.git' } |
+            ForEach-Object {
+              Copy-Item `
+                -LiteralPath $_.FullName `
+                -Destination $destination `
+                -Recurse `
+                -Force
+            }
 
           Write-Host ""
-          Write-Host "ZIP created:"
-          Get-Item $zipPath | Format-List FullName, Length
+          Write-Host "Package contents:"
+          Get-ChildItem -LiteralPath $destination -Force -Recurse |
+            Select-Object FullName
 
-      - name: Upload ZIP
+      - name: Upload package
         uses: actions/upload-artifact@v7
         with:
           name: ${{ steps.package-info.outputs.zip_name }}
-          path: ${{ runner.temp }}/${{ steps.package-info.outputs.zip_name }}
+          path: ${{ runner.temp }}/package-output
           if-no-files-found: error
+          include-hidden-files: true
           retention-days: 7
