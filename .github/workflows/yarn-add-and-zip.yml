@@ -1,0 +1,153 @@
+name: Add Yarn Package and Create ZIP
+
+on:
+  workflow_dispatch:
+    inputs:
+      package:
+        description: 'Package name, e.g. sharp or @scope/package'
+        required: true
+        type: string
+
+      version:
+        description: 'Optional package version, e.g. 0.34.3'
+        required: false
+        type: string
+
+jobs:
+  add-and-package:
+    runs-on: windows-2025
+
+    permissions:
+      contents: read
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: '22.x'
+          package-manager-cache: false
+
+      - name: Enable Corepack
+        shell: pwsh
+        run: |
+          corepack enable
+          Write-Host "Yarn version:"
+          yarn --version
+
+      - name: Add package
+        shell: pwsh
+        env:
+          PACKAGE_NAME: ${{ inputs.package }}
+          PACKAGE_VERSION: ${{ inputs.version }}
+        run: |
+          if ([string]::IsNullOrWhiteSpace($env:PACKAGE_VERSION)) {
+            Write-Host "Running: yarn add $env:PACKAGE_NAME"
+            yarn add "$env:PACKAGE_NAME" --no-immutable
+          }
+          else {
+            Write-Host "Running: yarn add $env:PACKAGE_NAME@$env:PACKAGE_VERSION"
+            yarn add "$env:PACKAGE_NAME@$env:PACKAGE_VERSION" --no-immutable
+          }
+
+      - name: Determine ZIP filename
+        id: package-info
+        shell: pwsh
+        env:
+          PACKAGE_NAME: ${{ inputs.package }}
+          PACKAGE_VERSION: ${{ inputs.version }}
+        run: |
+          # Sanitize package name for use in a Windows filename.
+          $safeName = $env:PACKAGE_NAME -replace '^@', '' -replace '/', '-' -replace '[^A-Za-z0-9._-]', '-'
+
+          if ([string]::IsNullOrWhiteSpace($env:PACKAGE_VERSION)) {
+            $versionLabel = 'latest'
+          }
+          else {
+            $versionLabel = $env:PACKAGE_VERSION -replace '[^A-Za-z0-9._-]', '-'
+          }
+
+          $zipName = "yarn-drop-$safeName-$versionLabel.zip"
+
+          Write-Host "ZIP filename: $zipName"
+          "zip_name=$zipName" >> $env:GITHUB_OUTPUT
+
+      - name: Create ZIP containing the entire project
+        shell: pwsh
+        env:
+          ZIP_NAME: ${{ steps.package-info.outputs.zip_name }}
+        run: |
+          Add-Type -AssemblyName System.IO.Compression
+          Add-Type -AssemblyName System.IO.Compression.FileSystem
+
+          $source = (Get-Location).Path
+          $zipPath = Join-Path $env:RUNNER_TEMP $env:ZIP_NAME
+
+          if (Test-Path $zipPath) {
+            Remove-Item $zipPath -Force
+          }
+
+          Write-Host "Source directory: $source"
+          Write-Host "ZIP file:         $zipPath"
+
+          $zip = [System.IO.Compression.ZipFile]::Open(
+            $zipPath,
+            [System.IO.Compression.ZipArchiveMode]::Create
+          )
+
+          try {
+            Get-ChildItem -LiteralPath $source -Force -Recurse |
+              Where-Object {
+                $_.FullName -notlike "$source\.git\*" -and
+                $_.FullName -ne $zipPath
+              } |
+              ForEach-Object {
+                $relativePath = $_.FullName.Substring($source.Length + 1)
+
+                if ($_.PSIsContainer) {
+                  # Directory entries aren't strictly required for extraction,
+                  # so files are what matter. Empty directories are handled below.
+                  return
+                }
+
+                $entry = $zip.CreateEntry(
+                  $relativePath,
+                  [System.IO.Compression.CompressionLevel]::Optimal
+                )
+
+                $inputStream = $null
+                $outputStream = $null
+
+                try {
+                  $inputStream = [System.IO.File]::OpenRead($_.FullName)
+                  $outputStream = $entry.Open()
+                  $inputStream.CopyTo($outputStream)
+                }
+                finally {
+                  if ($outputStream) {
+                    $outputStream.Dispose()
+                  }
+
+                  if ($inputStream) {
+                    $inputStream.Dispose()
+                  }
+                }
+              }
+          }
+          finally {
+            $zip.Dispose()
+          }
+
+          Write-Host ""
+          Write-Host "ZIP created:"
+          Get-Item $zipPath | Format-List FullName, Length
+
+      - name: Upload ZIP
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.package-info.outputs.zip_name }}
+          path: ${{ runner.temp }}/${{ steps.package-info.outputs.zip_name }}
+          if-no-files-found: error
+          retention-days: 7
