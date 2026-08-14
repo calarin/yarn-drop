@@ -58,32 +58,26 @@ jobs:
         env:
           PACKAGE_NAME: ${{ inputs.package }}
         run: |
-          # Read the actual resolved version from the project's package.json.
-          $packageJson = Get-Content package.json -Raw | ConvertFrom-Json
+          Write-Host "Getting resolved version for $env:PACKAGE_NAME"
 
-          $actualVersion = $null
-
-          if ($packageJson.dependencies.PSObject.Properties.Name -contains $env:PACKAGE_NAME) {
-            $actualVersion = $packageJson.dependencies.($env:PACKAGE_NAME)
-          }
-          elseif ($packageJson.devDependencies.PSObject.Properties.Name -contains $env:PACKAGE_NAME) {
-            $actualVersion = $packageJson.devDependencies.($env:PACKAGE_NAME)
-          }
-          elseif ($packageJson.peerDependencies.PSObject.Properties.Name -contains $env:PACKAGE_NAME) {
-            $actualVersion = $packageJson.peerDependencies.($env:PACKAGE_NAME)
-          }
-
-          if ([string]::IsNullOrWhiteSpace($actualVersion)) {
-            throw "Could not find '$env:PACKAGE_NAME' in package.json after yarn add."
-          }
-
-          # The manifest contains the requested range (for example ^7.0.0),
-          # so ask Yarn for the actual resolved package information.
-          $info = yarn info "$env:PACKAGE_NAME" --json | ConvertFrom-Json
+          $jsonLines = yarn info "$env:PACKAGE_NAME" --json 2>&1
 
           $resolvedVersion = $null
 
-          foreach ($record in $info) {
+          foreach ($line in $jsonLines) {
+            $text = $line.ToString().Trim()
+
+            if ([string]::IsNullOrWhiteSpace($text)) {
+              continue
+            }
+
+            try {
+              $record = $text | ConvertFrom-Json
+            }
+            catch {
+              continue
+            }
+
             if ($record.type -eq "inspect" -and $record.data.version) {
               $resolvedVersion = $record.data.version
               break
@@ -91,7 +85,7 @@ jobs:
           }
 
           if ([string]::IsNullOrWhiteSpace($resolvedVersion)) {
-            throw "Could not determine the resolved version of '$env:PACKAGE_NAME'."
+            throw "Could not determine the resolved version of '$env:PACKAGE_NAME'. Yarn info output was:`n$($jsonLines -join "`n")"
           }
 
           $safeName = $env:PACKAGE_NAME `
@@ -108,7 +102,7 @@ jobs:
           Write-Host "ZIP filename:      $zipName"
 
           "zip_name=$zipName" >> $env:GITHUB_OUTPUT
-
+          
       - name: Create ZIP containing the entire project
         shell: pwsh
         env:
