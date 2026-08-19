@@ -1,0 +1,264 @@
+name: Add Python Packages and Create ZIP
+
+on:
+  workflow_dispatch:
+    inputs:
+      packages:
+        description: 'Package(s), space or comma separated. e.g. "requests numpy==2.1.0 pandas>=1.0,<2.0"'
+        required: true
+        type: string
+
+      version:
+        description: 'Optional version for a SINGLE package, e.g. 2.32.3 (ignored if you pin inline)'
+        required: false
+        type: string
+
+      python_version:
+        description: 'Python version'
+        required: false
+        default: '3.11'
+        type: string
+
+      os:
+        description: 'Target platform (selects the runner the wheels are downloaded on)'
+        required: false
+        default: 'windows-latest'
+        type: choice
+        options:
+          - windows-latest
+          - ubuntu-latest
+          - ubuntu-24.04-arm
+          - macos-latest
+          - macos-13
+
+      wheels_only:
+        description: 'Fail rather than fall back to source distributions (recommended for offline installs)'
+        required: false
+        default: true
+        type: boolean
+
+      no_deps:
+        description: 'Download only the named packages, skip their dependencies'
+        required: false
+        default: false
+        type: boolean
+
+jobs:
+  download-and-package:
+    runs-on: ${{ inputs.os }}
+
+    permissions:
+      contents: read
+
+    steps:
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ inputs.python_version }}
+
+      - name: Upgrade pip
+        shell: bash
+        run: |
+          python -m pip install --upgrade pip packaging
+          echo "pip version:"
+          python -m pip --version
+
+      - name: Parse and validate requested packages
+        id: parse
+        shell: bash
+        env:
+          PACKAGES: ${{ inputs.packages }}
+          PACKAGE_VERSION: ${{ inputs.version }}
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import os, sys
+          from packaging.requirements import Requirement, InvalidRequirement
+
+          raw = os.environ["PACKAGES"]
+          explicit_version = (os.environ.get("PACKAGE_VERSION") or "").strip()
+
+          # Split on whitespace only. Commas are legal INSIDE a specifier
+          # (pandas>=1.0,<2.0), so we only strip them where they're clearly
+          # being used as a separator: at the edges of a token.
+          tokens = [t.strip().strip(",").strip() for t in raw.split()]
+          tokens = [t for t in tokens if t]
+
+          if not tokens:
+              sys.exit("::error::No packages given.")
+
+          if explicit_version:
+              if len(tokens) > 1:
+                  sys.exit(
+                      "::error::The 'version' input only works with a single package. "
+                      f"You gave {len(tokens)} packages: {' '.join(tokens)}. "
+                      "Pin them inline instead, e.g. 'requests==2.32.3 numpy==2.1.0'."
+                  )
+              if any(c in tokens[0] for c in "=<>!~"):
+                  print(
+                      f"::warning::'{tokens[0]}' is already pinned inline; "
+                      f"ignoring the separate version input '{explicit_version}'."
+                  )
+              else:
+                  tokens[0] = f"{tokens[0]}=={explicit_version}"
+
+          bad = []
+          names = []
+          for token in tokens:
+              try:
+                  names.append(Requirement(token).name)
+              except InvalidRequirement as exc:
+                  bad.append(f"  {token}  ->  {exc}")
+
+          if bad:
+              sys.exit("::error::Could not parse these entries:%0A" + "%0A".join(bad))
+
+          print(f"Parsed {len(tokens)} requirement(s):")
+          for token in tokens:
+              print(f"  {token}")
+
+          with open("specs.txt", "w") as handle:
+              handle.write("\n".join(tokens) + "\n")
+
+          with open(os.environ["GITHUB_OUTPUT"], "a") as handle:
+              handle.write(f"count={len(tokens)}\n")
+              handle.write(f"names={' '.join(names)}\n")
+          PY
+
+      - name: Download packages and dependencies
+        shell: bash
+        env:
+          WHEELS_ONLY: ${{ inputs.wheels_only }}
+          NO_DEPS: ${{ inputs.no_deps }}
+        run: |
+          set -euo pipefail
+          mkdir -p drop
+
+          mapfile -t SPECS < specs.txt
+
+          ARGS=(--dest drop)
+          if [ "${WHEELS_ONLY}" = "true" ]; then
+            ARGS+=(--only-binary=:all:)
+          fi
+          if [ "${NO_DEPS}" = "true" ]; then
+            ARGS+=(--no-deps)
+          fi
+
+          echo "Running: pip download ${SPECS[*]} ${ARGS[*]}"
+          python -m pip download "${SPECS[@]}" "${ARGS[@]}"
+
+          echo ""
+          echo "Downloaded files:"
+          ls -la drop
+
+      - name: Determine artifact name and write manifest
+        id: package-info
+        shell: bash
+        env:
+          PYTHON_VERSION: ${{ inputs.python_version }}
+          TARGET_OS: ${{ inputs.os }}
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import os, pathlib, re
+          from packaging.requirements import Requirement
+          from packaging.utils import (
+              canonicalize_name, parse_wheel_filename, parse_sdist_filename,
+          )
+
+          requested = [
+              line.strip()
+              for line in pathlib.Path("specs.txt").read_text().splitlines()
+              if line.strip()
+          ]
+          wanted = {canonicalize_name(Requirement(r).name): r for r in requested}
+
+          drop = pathlib.Path("drop")
+          pins = []
+          resolved = {}
+
+          for path in sorted(drop.iterdir()):
+              try:
+                  if path.name.endswith(".whl"):
+                      name, ver, _, _ = parse_wheel_filename(path.name)
+                  else:
+                      name, ver = parse_sdist_filename(path.name)
+              except Exception:
+                  continue
+              pins.append(f"{name}=={ver}")
+              key = canonicalize_name(name)
+              if key in wanted:
+                  resolved[key] = (str(name), str(ver))
+
+          missing = set(wanted) - set(resolved)
+          if missing:
+              print(
+                  "::warning::Could not parse a resolved version for: "
+                  + ", ".join(sorted(missing))
+              )
+
+          (drop / "requirements.lock.txt").write_text("\n".join(sorted(set(pins))) + "\n")
+
+          requested_block = "\n".join(f"  {r}" for r in requested)
+          resolved_block = "\n".join(
+              f"  {name} {ver}" for name, ver in sorted(resolved.values())
+          )
+          install_targets = " ".join(requested)
+
+          (drop / "INSTALL.txt").write_text(
+              f"Offline install bundle\n"
+              f"======================\n\n"
+              f"Requested:\n{requested_block}\n\n"
+              f"Resolved:\n{resolved_block}\n\n"
+              f"Python:   {os.environ['PYTHON_VERSION']}\n"
+              f"Built on: {os.environ['TARGET_OS']}\n"
+              f"Files:    {len(pins)} distributions\n\n"
+              f"To install on the target machine (no network needed):\n\n"
+              f"    pip install --no-index --find-links . {install_targets}\n\n"
+              f"Or to install the exact set that was downloaded:\n\n"
+              f"    pip install --no-index --find-links . -r requirements.lock.txt\n\n"
+              f"The Python version and platform on the target machine must match\n"
+              f"the ones above, or the wheel tags will not be accepted.\n"
+          )
+
+          def safe(value: str) -> str:
+              return re.sub(r"[^A-Za-z0-9._-]", "-", value)
+
+          # One package -> include its version, same as before.
+          # Several -> join the names, and don't let it grow unbounded.
+          if len(requested) == 1:
+              name, ver = next(
+                  iter(resolved.values()),
+                  (Requirement(requested[0]).name, "unknown"),
+              )
+              label = f"{safe(name)}-{safe(ver)}"
+          else:
+              base_names = [safe(Requirement(r).name) for r in requested]
+              shown, rest = base_names[:3], base_names[3:]
+              label = "+".join(shown)
+              if rest:
+                  label += f"+{len(rest)}-more"
+
+          zip_name = (
+              f"pip-drop-{label}"
+              f"-py{safe(os.environ['PYTHON_VERSION'])}"
+              f"-{safe(os.environ['TARGET_OS'])}"
+          )
+
+          print(f"Artifact name: {zip_name}")
+
+          with open(os.environ["GITHUB_OUTPUT"], "a") as handle:
+              handle.write(f"zip_name={zip_name}\n")
+          PY
+
+          echo ""
+          echo "Final bundle contents:"
+          ls -la drop
+
+      - name: Upload package
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.package-info.outputs.zip_name }}
+          path: drop
+          if-no-files-found: error
+          retention-days: 7
