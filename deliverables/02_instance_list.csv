@@ -1,0 +1,665 @@
+instance_id,sheet,room_number,room_name,drawing_code,row_id,symbol_tag,tag_family,source_text,split_from_joined_text,x_pt,y_pt,floor_x_ft,floor_y_ft,rotation_deg,footprint_pt,assembly_id,room_method,status,model_globalid,model_name,model_class,match_status
+E-T002,A06.04A (east),452,BOOKSTOCKS,MFN-400,R060,S-5,architect in-symbol tag,S-5,False,194.0,558.3,57.23,10.69,0.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+E-T003,A06.04A (east),453,PROMOTION & MARKETING,MFN-400,R063,S-5,architect in-symbol tag,S-5,False,291.9,397.9,68.11,28.52,0.0,15.0x14.9,,point inside room region,counted,,,,Model not supplied
+E-T004,A06.04A (east),453,PROMOTION & MARKETING,MFN-400,R063,S-5,architect in-symbol tag,S-5,False,291.9,478.9,68.11,19.52,0.0,15.0x14.9,,point inside room region,counted,,,,Model not supplied
+E-T005,A06.04A (east),453,PROMOTION & MARKETING,MFN-400,R063,S-5,architect in-symbol tag,S-5,False,293.2,549.9,68.26,11.62,0.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+E-T006,A06.04A (east),453,PROMOTION & MARKETING,MFN-400,R063,S-5,architect in-symbol tag,S-5,False,516.9,386.6,93.11,29.77,0.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+E-T007,A06.04A (east),453,PROMOTION & MARKETING,MFN-400,R063,S-5,architect in-symbol tag,S-5,False,573.0,391.9,99.35,29.18,47.1,20.3x20.3,,point inside room region,counted,,,,Model not supplied
+E-T008,A06.04A (east),456,TREASURY,MFN-400,R069,S-5,architect in-symbol tag,S-5,False,649.9,381.1,107.89,30.37,-90.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+E-T009,A06.04A (east),456,TREASURY,MFN-400,R069,S-5,architect in-symbol tag,S-5,False,703.1,379.9,113.8,30.51,-90.0,15.0x14.9,,point inside room region,counted,,,,Model not supplied
+E-T010,A06.04A (east),456,TREASURY,MFN-400,R069,S-5,architect in-symbol tag,S-5,False,662.3,471.5,109.27,20.33,-90.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+E-T011,A06.04A (east),456,TREASURY,MFN-400,R069,S-5,architect in-symbol tag,S-5,False,811.6,380.2,125.85,30.47,-90.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+E-T012,A06.04A (east),410,DEPARTMENT 1,MFN-400,R006,S-5,architect in-symbol tag,S-5,False,949.5,380.2,141.17,30.47,-90.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+E-T013,A06.04A (east),410,DEPARTMENT 1,MFN-400,R006,S-5,architect in-symbol tag,S-5,False,886.7,379.8,134.2,30.53,-90.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+E-T014,A06.04A (east),411,HCO AREA SECRETARY,MFN-400,R008,S-5,architect in-symbol tag,S-5,False,1010.2,381.1,147.92,30.37,-90.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+E-T015,A06.04A (east),414,E / O,MFN-400,R016,S-5,architect in-symbol tag,S-5,False,1198.0,454.9,168.79,22.18,-62.1,19.4x19.4,,point inside room region,counted,,,,Model not supplied
+E-T016,A06.04A (east),415,E / O,MFN-400,R019,S-5,architect in-symbol tag,S-5,False,1258.0,506.3,175.45,16.47,-42.3,20.2x20.2,,point inside room region,counted,,,,Model not supplied
+E-T017,A06.04A (east),416,E / O,MFN-400,R022,S-5,architect in-symbol tag,S-5,False,1298.0,575.8,179.9,8.75,-21.9,18.8x18.8,,point inside room region,counted,,,,Model not supplied
+E-T018,A06.04A (east),417,CHIEF ETHICS OFFICER,MFN-400,R025,S-5,architect in-symbol tag,S-5,False,1270.7,631.3,176.87,2.58,-90.0,15.0x14.9,,point inside room region,counted,,,,Model not supplied
+E-T019,A06.04A (east),418,ETHICS OFFICER,MFN-400,R028,S-5,architect in-symbol tag,S-5,False,1152.4,618.4,163.72,4.01,-90.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+E-T020,A06.04A (east),406,HCO RECEPTION,MFN-400,R002,S-5,architect in-symbol tag,S-5,False,1034.9,622.8,150.67,3.52,-90.0,15.0x14.9,,point inside room region,counted,,,,Model not supplied
+E-T021,A06.04A (east),421,DEPARTMENT 3,MFN-400,R031,S-5,architect in-symbol tag,S-5,False,1355.3,726.5,186.27,-8.0,0.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+E-T022,A06.04A (east),421,DEPARTMENT 3,MFN-400,R031,S-5,architect in-symbol tag,S-5,False,1355.0,694.1,186.23,-4.4,0.0,15.0x14.9,,point inside room region,counted,,,,Model not supplied
+E-T023,A06.04A (east),421,DEPARTMENT 3,MFN-400,R031,S-5,architect in-symbol tag,S-5,False,1354.5,791.6,186.18,-15.23,0.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+E-T024,A06.04A (east),421,DEPARTMENT 3,MFN-400,R031,S-5,architect in-symbol tag,S-5,False,1355.6,841.1,186.3,-20.74,0.0,15.0x14.9,,point inside room region,counted,,,,Model not supplied
+E-T025,A06.04A (east),423,DEPARTMENT 2,MFN-400,R036,S-5,architect in-symbol tag,S-5,False,1055.8,825.7,152.99,-19.02,-90.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+E-T026,A06.04A (east),427,CLASS ROOM,MFN-400,R048,S-5,architect in-symbol tag,S-5,False,745.2,810.2,118.48,-17.3,-90.0,12.0x15.0,,point inside room region,counted,,,,Model not supplied
+E-T027,A06.04A (east),424,PROCURMENT OFFICER,MFN-400,R039,S-5,architect in-symbol tag,S-5,False,891.5,835.2,134.73,-20.08,-45.0,20.3x20.2,,point inside room region,counted,,,,Model not supplied
+E-T028,A06.04A (east),433B,CENTRAL FILES,MFN-400,R058,S-5,architect in-symbol tag,S-5,False,383.5,841.3,78.28,-20.75,0.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+E-T029,A06.04A (east),433B,CENTRAL FILES,MFN-400,R058,S-5,architect in-symbol tag,S-5,False,255.2,841.3,64.03,-20.75,0.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+E-T030,A06.04A (east),433B,CENTRAL FILES,MFN-400,R058,S-5,architect in-symbol tag,S-5,False,213.3,841.3,59.38,-20.75,0.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+E-T031,A06.04A (east),453,PROMOTION & MARKETING,MFN-402,R064,S-9,architect in-symbol tag,S-9,False,279.7,439.3,66.75,23.92,0.0,14.3x15.0,,point inside room region,counted,,,,Model not supplied
+E-T032,A06.04A (east),456,TREASURY,MFN-402,R070,S-9,architect in-symbol tag,S-9,False,770.1,388.9,121.24,29.51,-90.0,15.0x14.3,,point inside room region,counted,,,,Model not supplied
+E-T033,A06.04A (east),456,TREASURY,MFN-402,R070,S-9,architect in-symbol tag,S-9,False,770.1,369.5,121.24,31.67,-90.0,15.0x14.2,,point inside room region,counted,,,,Model not supplied
+E-T034,A06.04A (east),410,DEPARTMENT 1,MFN-400,R006,S-5,architect in-symbol tag,S-5,False,886.7,469.2,134.2,20.59,-90.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+E-T035,A06.04A (east),407,HCO COPE,MFN-400,R004,S-5,architect in-symbol tag,S-5,False,886.7,519.9,134.2,14.96,-90.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+E-T036,A06.04A (east),407,HCO COPE,MFN-401,R005,S-2,architect in-symbol tag,S-2,False,939.3,508.5,140.04,16.22,-90.0,18.0x18.0,,point inside room region,counted,,,,Model not supplied
+E-T037,A06.04A (east),407,HCO COPE,MFN-401,R005,S-2,architect in-symbol tag,S-2,False,939.3,535.5,140.04,13.22,-90.0,18.0x18.0,,point inside room region,counted,,,,Model not supplied
+E-T038,A06.04A (east),411,HCO AREA SECRETARY,MFN-401,R009,S-2,architect in-symbol tag,S-2,False,1054.9,369.3,152.89,31.69,-90.0,18.0x18.0,,point inside room region,counted,,,,Model not supplied
+E-T039,A06.04A (east),411,HCO AREA SECRETARY,MFN-401,R009,S-2,architect in-symbol tag,S-2,False,1054.9,392.0,152.89,29.17,-90.0,18.0x18.0,,point inside room region,counted,,,,Model not supplied
+E-T040,A06.04A (east),413,ADMIN,CC-900,R013,CC-1,architect in-symbol tag,CC-1,False,1087.3,438.4,156.49,24.01,-90.0,13.4x9.0,,point inside room region,counted,,,,Model not supplied
+E-T041,A06.04A (east),413,ADMIN,CC-900,R013,CC-1,architect in-symbol tag,CC-1,False,1087.3,447.4,156.49,23.01,-90.0,13.4x9.0,,point inside room region,counted,,,,Model not supplied
+E-T042,A06.04A (east),413,ADMIN,CC-900,R013,CC-1,architect in-symbol tag,CC-1,False,1087.3,456.4,156.49,22.01,-90.0,13.4x9.0,,point inside room region,counted,,,,Model not supplied
+E-T043,A06.04A (east),414,E / O,AUD-400,R015,S-13,architect in-symbol tag,S-13,False,1161.6,434.5,164.75,24.44,-62.1,18.6x19.2,,point inside room region,counted,,,,Model not supplied
+E-T044,A06.04A (east),415,E / O,AUD-400,R018,S-13,architect in-symbol tag,S-13,False,1232.6,473.6,172.64,20.1,-42.3,19.7x19.7,,point inside room region,counted,,,,Model not supplied
+E-T045,A06.04A (east),416,E / O,AUD-400,R021,S-13,architect in-symbol tag,S-13,False,1280.3,536.4,177.93,13.12,-21.9,18.5x17.9,,point inside room region,counted,,,,Model not supplied
+E-T046,A06.04A (east),412,WORK AREA,CRM-400,R012,S-10,architect in-symbol tag,S-10,False,1115.4,536.4,159.61,13.13,-90.0,12.7x14.8,,point inside room region,counted,,,,Model not supplied
+E-T047,A06.04A (east),412,WORK AREA,CRM-400,R012,S-10,architect in-symbol tag,S-10,False,1115.4,557.4,159.61,10.79,-90.0,12.7x14.8,,point inside room region,counted,,,,Model not supplied
+E-T048,A06.04A (east),412,WORK AREA,CRM-400,R012,S-10,architect in-symbol tag,S-10,False,1115.4,578.4,159.61,8.46,-90.0,12.7x14.8,,point inside room region,counted,,,,Model not supplied
+E-T049,A06.04A (east),412,WORK AREA,CRM-400,R012,S-10,architect in-symbol tag,S-10,False,1153.3,536.4,163.83,13.13,-90.0,12.8x14.8,,point inside room region,counted,,,,Model not supplied
+E-T050,A06.04A (east),412,WORK AREA,CRM-400,R012,S-10,architect in-symbol tag,S-10,False,1153.3,557.4,163.83,10.79,-90.0,12.8x14.8,,point inside room region,counted,,,,Model not supplied
+E-T051,A06.04A (east),412,WORK AREA,CRM-400,R012,S-10,architect in-symbol tag,S-10,False,1153.3,578.4,163.83,8.46,-90.0,12.8x14.8,,point inside room region,counted,,,,Model not supplied
+E-T052,A06.04A (east),412,WORK AREA,CRM-301.3,R010,T-1.3,architect in-symbol tag,T-1.3,False,1134.6,555.9,161.75,10.96,-90.0,27.0x67.4,,point inside room region,counted,,,,Model not supplied
+E-T053,A06.04A (east),412,WORK AREA,CRM-325,R011,B-5B.4,architect in-symbol tag,B-5B.4,False,1085.1,574.3,156.24,8.91,-90.0,9.0x27.0,,point inside room region,counted,,,,Model not supplied
+E-T054,A06.04A (east),412,WORK AREA,CRM-325,R011,B-5B.4,architect in-symbol tag,B-5B.4,False,1085.1,545.2,156.24,12.14,-90.0,9.0x27.0,,point inside room region,counted,,,,Model not supplied
+E-T055,A06.04A (east),418,ETHICS OFFICER,AUD-400,R027,S-13,architect in-symbol tag,S-13,False,1111.9,618.4,159.23,4.01,-90.0,14.3x17.2,,point inside room region,counted,,,,Model not supplied
+E-T056,A06.04A (east),417,CHIEF ETHICS OFFICER,AUD-400,R024,S-13,architect in-symbol tag,S-13,False,1314.3,631.2,181.71,2.59,-90.0,14.2x17.2,,point inside room region,counted,,,,Model not supplied
+E-T057,A06.04A (east),406,HCO RECEPTION,MFN-307,R001,T-5,architect in-symbol tag,T-5,False,938.4,703.3,139.94,-5.42,0.0,15.0x14.9,,point inside room region,counted,,,,Model not supplied
+E-T058,A06.04A (east),424,PROCURMENT OFFICER,MFN-305,R038,T-5,architect in-symbol tag,T-5,False,867.7,781.3,132.09,-14.08,0.0,15.0x14.9,,point inside room region,counted,,,,Model not supplied
+E-T059,A06.04A (east),424,PROCURMENT OFFICER,MFN-401,R040,S-2,architect in-symbol tag,S-2,False,891.2,780.9,134.7,-14.04,0.0,18.0x18.0,,point inside room region,counted,,,,Model not supplied
+E-T060,A06.04A (east),424,PROCURMENT OFFICER,MFN-401,R040,S-2,architect in-symbol tag,S-2,False,868.2,801.5,132.15,-16.33,-90.0,18.0x18.0,,point inside room region,counted,,,,Model not supplied
+E-T061,A06.04A (east),406,HCO RECEPTION,MFN-405,R003,S-3,architect in-symbol tag,S-3,False,946.7,683.1,140.87,-3.18,-76.8,27.0x26.9,,point inside room region,counted,,,,Model not supplied
+E-T062,A06.04A (east),406,HCO RECEPTION,MFN-405,R003,S-3,architect in-symbol tag,S-3,False,945.8,723.7,140.76,-7.69,76.8,27.0x26.9,,point inside room region,counted,,,,Model not supplied
+E-T063,A06.04A (east),423,DEPARTMENT 2,CC-900,R035,CC-1,architect in-symbol tag,CC-1,False,972.0,776.4,143.68,-13.55,-90.0,13.4x9.0,,point inside room region,counted,,,,Model not supplied
+E-T064,A06.04A (east),423,DEPARTMENT 2,CC-900,R035,CC-1,architect in-symbol tag,CC-1,False,972.0,784.2,143.68,-14.41,-90.0,13.4x9.0,,point inside room region,counted,,,,Model not supplied
+E-T065,A06.04A (east),423,DEPARTMENT 2,CC-900,R035,CC-1,architect in-symbol tag,CC-1,False,972.0,794.4,143.68,-15.55,-90.0,13.4x9.0,,point inside room region,counted,,,,Model not supplied
+E-T066,A06.04A (east),423,DEPARTMENT 2,CC-900,R035,CC-1,architect in-symbol tag,CC-1,False,972.0,802.2,143.68,-16.41,-90.0,13.4x9.0,,point inside room region,counted,,,,Model not supplied
+E-T067,A06.04A (east),423,DEPARTMENT 2,CC-900,R035,CC-1,architect in-symbol tag,CC-1,False,972.0,812.4,143.68,-17.55,-90.0,13.4x9.0,,point inside room region,counted,,,,Model not supplied
+E-T068,A06.04A (east),423,DEPARTMENT 2,CC-900,R035,CC-1,architect in-symbol tag,CC-1,False,972.0,820.2,143.68,-18.41,-90.0,13.4x9.0,,point inside room region,counted,,,,Model not supplied
+E-T069,A06.04A (east),423,DEPARTMENT 2,CC-900,R035,CC-1,architect in-symbol tag,CC-1,False,972.0,830.4,143.68,-19.55,-90.0,13.4x9.0,,point inside room region,counted,,,,Model not supplied
+E-T070,A06.04A (east),423,DEPARTMENT 2,CC-900,R035,CC-1,architect in-symbol tag,CC-1,False,972.0,838.2,143.68,-20.41,-90.0,13.4x9.0,,point inside room region,counted,,,,Model not supplied
+E-T071,A06.04A (east),423,DEPARTMENT 2,CC-900,R035,CC-1,architect in-symbol tag,CC-1,False,972.0,848.4,143.68,-21.55,-90.0,13.4x9.0,,point inside room region,counted,,,,Model not supplied
+E-T072,A06.04A (east),427,CLASS ROOM,MFN-416,R050,S-14,architect in-symbol tag,S-14,False,733.7,841.2,117.2,-20.74,-90.0,6.8x9.7,,point inside room region,counted,,,,Model not supplied
+E-T073,A06.04A (east),427,CLASS ROOM,MFN-416,R050,S-14,architect in-symbol tag,S-14,False,733.7,854.4,117.2,-22.21,-90.0,6.8x9.7,,point inside room region,counted,,,,Model not supplied
+E-T074,A06.04A (east),427,CLASS ROOM,MFN-312,R042,T-1,architect in-symbol tag,T-1,False,831.7,804.1,128.09,-16.62,0.0,36.1x18.0,,point inside room region,counted,,,,Model not supplied
+E-T075,A06.04A (east),427,CLASS ROOM,MFN-415,R049,S-10,architect in-symbol tag,S-10 S-10 S-10,True,821.0,792.8,126.9,-15.36,0.0,9.4x6.7,,point inside room region,counted,,,,Model not supplied
+E-T076,A06.04A (east),427,CLASS ROOM,MFN-415,R049,S-10,architect in-symbol tag,S-10 S-10 S-10,True,832.6,792.8,128.19,-15.36,0.0,9.4x6.7,,point inside room region,counted,,,,Model not supplied
+E-T077,A06.04A (east),427,CLASS ROOM,MFN-415,R049,S-10,architect in-symbol tag,S-10 S-10 S-10,True,844.1,792.8,129.47,-15.36,0.0,9.2x6.7,,point inside room region,counted,,,,Model not supplied
+E-T078,A06.04A (east),427,CLASS ROOM,MFN-415,R049,S-10,architect in-symbol tag,S-10 S-10 S-10,True,821.0,815.0,126.9,-17.83,0.0,9.2x6.8,,point inside room region,counted,,,,Model not supplied
+E-T079,A06.04A (east),427,CLASS ROOM,MFN-415,R049,S-10,architect in-symbol tag,S-10 S-10 S-10,True,832.6,815.0,128.19,-17.83,0.0,9.2x6.8,,point inside room region,counted,,,,Model not supplied
+E-T080,A06.04A (east),427,CLASS ROOM,MFN-415,R049,S-10,architect in-symbol tag,S-10 S-10 S-10,True,844.1,815.0,129.47,-17.83,0.0,9.4x6.8,,point inside room region,counted,,,,Model not supplied
+E-T081,A06.04A (east),427,CLASS ROOM,MFN-415,R049,S-10,architect in-symbol tag,S-10 S-10 S-10,True,821.0,833.6,126.9,-19.9,0.0,9.6x8.0,,point inside room region,counted,,,,Model not supplied
+E-T082,A06.04A (east),427,CLASS ROOM,MFN-415,R049,S-10,architect in-symbol tag,S-10 S-10 S-10,True,832.6,833.6,128.19,-19.9,0.0,9.7x8.0,,point inside room region,counted,,,,Model not supplied
+E-T083,A06.04A (east),427,CLASS ROOM,MFN-415,R049,S-10,architect in-symbol tag,S-10 S-10 S-10,True,844.1,833.6,129.47,-19.9,0.0,9.7x8.0,,point inside room region,counted,,,,Model not supplied
+E-T084,A06.04A (east),427,CLASS ROOM,MFN-415,R049,S-10,architect in-symbol tag,S-10 S-10 S-10,True,821.0,857.1,126.9,-22.51,0.0,9.2x6.8,,point inside room region,counted,,,,Model not supplied
+E-T085,A06.04A (east),427,CLASS ROOM,MFN-415,R049,S-10,architect in-symbol tag,S-10 S-10 S-10,True,832.6,857.1,128.19,-22.51,0.0,9.2x6.8,,point inside room region,counted,,,,Model not supplied
+E-T086,A06.04A (east),427,CLASS ROOM,MFN-415,R049,S-10,architect in-symbol tag,S-10 S-10 S-10,True,844.1,857.1,129.47,-22.51,0.0,9.2x6.8,,point inside room region,counted,,,,Model not supplied
+E-T087,A06.04A (east),427,CLASS ROOM,MFN-415,R049,S-10,architect in-symbol tag,S-10,False,784.8,805.0,122.88,-16.72,44.9,11.6x11.5,,point inside room region,counted,,,,Model not supplied
+E-T088,A06.04A (east),427,CLASS ROOM,MFN-415,R049,S-10,architect in-symbol tag,S-10,False,772.5,804.8,121.51,-16.69,-45.0,11.3x11.2,,point inside room region,counted,,,,Model not supplied
+E-T089,A06.04A (east),427,CLASS ROOM,MFN-415,R049,S-10,architect in-symbol tag,S-10,False,771.2,817.8,121.36,-18.15,44.9,11.5x11.5,,point inside room region,counted,,,,Model not supplied
+E-T090,A06.04A (east),427,CLASS ROOM,MFN-415,R049,S-10,architect in-symbol tag,S-10,False,785.4,818.4,122.94,-18.21,-44.9,11.9x11.8,,point inside room region,counted,,,,Model not supplied
+E-T091,A06.04A (east),427,CLASS ROOM,MFN-313,R043,T-8,architect in-symbol tag,T-8,False,778.7,812.0,122.2,-17.5,-44.9,18.0x17.9,,point inside room region,counted,,,,Model not supplied
+E-T092,A06.04A (east),427,CLASS ROOM,MFN-415,R049,S-10,architect in-symbol tag,S-10,False,784.8,842.3,122.88,-20.87,44.9,11.5x11.5,,point inside room region,counted,,,,Model not supplied
+E-T093,A06.04A (east),427,CLASS ROOM,MFN-415,R049,S-10,architect in-symbol tag,S-10,False,772.5,842.2,121.51,-20.85,-44.9,11.3x11.3,,point inside room region,counted,,,,Model not supplied
+E-T094,A06.04A (east),427,CLASS ROOM,MFN-415,R049,S-10,architect in-symbol tag,S-10,False,771.2,855.2,121.36,-22.29,44.9,11.8x11.6,,point inside room region,counted,,,,Model not supplied
+E-T095,A06.04A (east),427,CLASS ROOM,MFN-415,R049,S-10,architect in-symbol tag,S-10,False,785.4,855.9,122.94,-22.37,-44.9,11.9x11.6,,point inside room region,counted,,,,Model not supplied
+E-T096,A06.04A (east),431,LUNCH ROOM,DIN-301,R052,T-16,architect in-symbol tag,T-16,False,573.3,790.2,99.37,-15.08,-90.0,24.4x55.6,,point inside room region,counted,,,,Model not supplied
+E-T097,A06.04A (east),431,LUNCH ROOM,DIN-301,R052,T-16,architect in-symbol tag,T-16,False,573.3,844.4,99.37,-21.1,-90.0,24.4x55.4,,point inside room region,counted,,,,Model not supplied
+E-T098,A06.04A (east),431,LUNCH ROOM,DIN-301,R052,T-16,architect in-symbol tag,T-16,False,503.9,790.2,91.67,-15.08,-90.0,24.4x55.6,,point inside room region,counted,,,,Model not supplied
+E-T099,A06.04A (east),431,LUNCH ROOM,DIN-301,R052,T-16,architect in-symbol tag,T-16,False,503.9,844.4,91.67,-21.1,-90.0,24.4x55.4,,point inside room region,counted,,,,Model not supplied
+E-T100,A06.04A (east),431,LUNCH ROOM,DIN-400,R053,S-18,architect in-symbol tag,S-18,False,521.4,771.7,93.61,-13.02,-90.0,13.6x16.2,,point inside room region,counted,,,,Model not supplied
+E-T101,A06.04A (east),431,LUNCH ROOM,DIN-400,R053,S-18,architect in-symbol tag,S-18,False,521.4,789.7,93.61,-15.02,-90.0,13.6x16.2,,point inside room region,counted,,,,Model not supplied
+E-T102,A06.04A (east),431,LUNCH ROOM,DIN-400,R053,S-18,architect in-symbol tag,S-18,False,521.4,807.4,93.61,-16.99,-90.0,13.6x16.2,,point inside room region,counted,,,,Model not supplied
+E-T103,A06.04A (east),431,LUNCH ROOM,DIN-400,R053,S-18,architect in-symbol tag,S-18,False,486.0,771.7,89.68,-13.02,-90.0,13.6x16.2,,point inside room region,counted,,,,Model not supplied
+E-T104,A06.04A (east),431,LUNCH ROOM,DIN-400,R053,S-18,architect in-symbol tag,S-18,False,486.0,789.7,89.68,-15.02,-90.0,13.6x16.2,,point inside room region,counted,,,,Model not supplied
+E-T105,A06.04A (east),431,LUNCH ROOM,DIN-400,R053,S-18,architect in-symbol tag,S-18,False,486.0,807.4,89.68,-16.99,-90.0,13.6x16.2,,point inside room region,counted,,,,Model not supplied
+E-T106,A06.04A (east),431,LUNCH ROOM,DIN-400,R053,S-18,architect in-symbol tag,S-18,False,521.4,827.2,93.61,-19.19,-90.0,13.6x16.2,,point inside room region,counted,,,,Model not supplied
+E-T107,A06.04A (east),431,LUNCH ROOM,DIN-400,R053,S-18,architect in-symbol tag,S-18,False,521.4,845.2,93.61,-21.19,-90.0,13.6x16.2,,point inside room region,counted,,,,Model not supplied
+E-T108,A06.04A (east),431,LUNCH ROOM,DIN-400,R053,S-18,architect in-symbol tag,S-18,False,521.4,863.0,93.61,-23.17,-90.0,13.6x16.1,,point inside room region,counted,,,,Model not supplied
+E-T109,A06.04A (east),431,LUNCH ROOM,DIN-400,R053,S-18,architect in-symbol tag,S-18,False,486.0,827.2,89.68,-19.19,-90.0,13.6x16.2,,point inside room region,counted,,,,Model not supplied
+E-T110,A06.04A (east),431,LUNCH ROOM,DIN-400,R053,S-18,architect in-symbol tag,S-18,False,486.0,845.2,89.68,-21.19,-90.0,13.6x16.2,,point inside room region,counted,,,,Model not supplied
+E-T111,A06.04A (east),431,LUNCH ROOM,DIN-400,R053,S-18,architect in-symbol tag,S-18,False,486.0,863.0,89.68,-23.17,-90.0,13.6x16.1,,point inside room region,counted,,,,Model not supplied
+E-T112,A06.04A (east),431,LUNCH ROOM,DIN-400,R053,S-18,architect in-symbol tag,S-18,False,590.8,771.7,101.32,-13.02,-90.0,13.6x16.2,,point inside room region,counted,,,,Model not supplied
+E-T113,A06.04A (east),431,LUNCH ROOM,DIN-400,R053,S-18,architect in-symbol tag,S-18,False,590.8,789.7,101.32,-15.02,-90.0,13.6x16.2,,point inside room region,counted,,,,Model not supplied
+E-T114,A06.04A (east),431,LUNCH ROOM,DIN-400,R053,S-18,architect in-symbol tag,S-18,False,590.8,807.4,101.32,-16.99,-90.0,13.6x16.2,,point inside room region,counted,,,,Model not supplied
+E-T115,A06.04A (east),431,LUNCH ROOM,DIN-400,R053,S-18,architect in-symbol tag,S-18,False,555.4,771.7,97.39,-13.02,-90.0,13.6x16.2,,point inside room region,counted,,,,Model not supplied
+E-T116,A06.04A (east),431,LUNCH ROOM,DIN-400,R053,S-18,architect in-symbol tag,S-18,False,555.4,789.7,97.39,-15.02,-90.0,13.6x16.2,,point inside room region,counted,,,,Model not supplied
+E-T117,A06.04A (east),431,LUNCH ROOM,DIN-400,R053,S-18,architect in-symbol tag,S-18,False,555.4,807.4,97.39,-16.99,-90.0,13.6x16.2,,point inside room region,counted,,,,Model not supplied
+E-T118,A06.04A (east),431,LUNCH ROOM,DIN-400,R053,S-18,architect in-symbol tag,S-18,False,590.8,827.2,101.32,-19.19,-90.0,13.6x16.2,,point inside room region,counted,,,,Model not supplied
+E-T119,A06.04A (east),431,LUNCH ROOM,DIN-400,R053,S-18,architect in-symbol tag,S-18,False,590.8,845.2,101.32,-21.19,-90.0,13.6x16.2,,point inside room region,counted,,,,Model not supplied
+E-T120,A06.04A (east),431,LUNCH ROOM,DIN-400,R053,S-18,architect in-symbol tag,S-18,False,590.8,863.0,101.32,-23.17,-90.0,13.6x16.1,,point inside room region,counted,,,,Model not supplied
+E-T121,A06.04A (east),431,LUNCH ROOM,DIN-400,R053,S-18,architect in-symbol tag,S-18,False,555.4,827.2,97.39,-19.19,-90.0,13.6x16.2,,point inside room region,counted,,,,Model not supplied
+E-T122,A06.04A (east),431,LUNCH ROOM,DIN-400,R053,S-18,architect in-symbol tag,S-18,False,555.4,845.2,97.39,-21.19,-90.0,13.6x16.2,,point inside room region,counted,,,,Model not supplied
+E-T123,A06.04A (east),431,LUNCH ROOM,DIN-400,R053,S-18,architect in-symbol tag,S-18,False,555.4,863.0,97.39,-23.17,-90.0,13.6x16.1,,point inside room region,counted,,,,Model not supplied
+E-T124,A06.04A (east),433B,CENTRAL FILES,MFN-323,R056,D-8.1,architect in-symbol tag,D-8.1,False,384.4,861.4,78.38,-22.99,0.0,40.4x22.6,,point inside room region,counted,,,,Model not supplied
+E-T125,A06.04A (east),433B,CENTRAL FILES,,,CAB-2A,architect in-symbol tag,CAB-2A,False,351.9,860.7,74.78,-22.91,0.0,18.0x18.0,,point inside room region,not coded in this room,,,,Model not supplied
+E-T126,A06.04A (east),433B,CENTRAL FILES,MFN-326,R057,D-8.1,architect in-symbol tag,D-8.1,False,319.1,861.4,71.13,-22.99,0.0,90.2x22.6,,point inside room region,counted,,,,Model not supplied
+E-T127,A06.04A (east),433B,CENTRAL FILES,MFN-323,R056,D-8.1,architect in-symbol tag,D-8.1,False,254.2,861.4,63.92,-22.99,0.0,40.4x22.6,,point inside room region,counted,,,,Model not supplied
+E-T128,A06.04A (east),453,PROMOTION & MARKETING,MFN-402,R064,S-9,architect in-symbol tag,S-9,False,300.7,439.3,69.08,23.92,0.0,14.3x15.0,,point inside room region,counted,,,,Model not supplied
+E-T129,A06.04A (east),453,PROMOTION & MARKETING,CC-900,R062,CC-1,architect in-symbol tag,CC-1CC-1CC-1,True,293.5,583.1,68.29,7.93,0.0,9.0x13.4,,point inside room region,counted,,,,Model not supplied
+E-T130,A06.04A (east),453,PROMOTION & MARKETING,CC-900,R062,CC-1,architect in-symbol tag,CC-1CC-1CC-1,True,303.7,583.1,69.42,7.93,0.0,9.0x13.4,,point inside room region,counted,,,,Model not supplied
+E-T131,A06.04A (east),453,PROMOTION & MARKETING,CC-900,R062,CC-1,architect in-symbol tag,CC-1CC-1CC-1,True,311.5,583.1,70.29,7.93,0.0,9.0x13.4,,point inside room region,counted,,,,Model not supplied
+E-T132,A06.04A (east),456,TREASURY,CC-900,R066,CC-1,architect in-symbol tag,CC-1CC-1CC-1,True,713.1,541.9,114.91,12.51,-90.0,13.6x9.0,,point inside room region,counted,,,,Model not supplied
+E-T133,A06.04A (east),456,TREASURY,CC-900,R066,CC-1,architect in-symbol tag,CC-1CC-1CC-1,True,713.1,531.7,114.91,13.64,-90.0,13.6x9.0,,point inside room region,counted,,,,Model not supplied
+E-T134,A06.04A (east),456,TREASURY,CC-900,R066,CC-1,architect in-symbol tag,CC-1CC-1CC-1,True,713.1,523.9,114.91,14.51,-90.0,13.6x9.0,,point inside room region,counted,,,,Model not supplied
+E-T135,A06.04A (east),456,TREASURY,EQP-900,R067,E-5,architect in-symbol tag,E-5,False,622.7,464.4,104.87,21.13,-90.0,12.7x14.3,,point inside room region,counted,,,,Model not supplied
+E-T136,A06.04A (east),433B,CENTRAL FILES,HDF-900,R055,F-1,architect in-symbol tag,F-1,False,366.1,803.7,76.36,-16.58,0.0,7.1x7.0,,point inside room region,counted,,,,Model not supplied
+E-T137,A06.04A (east),456,TREASURY,HDF-900,R068,F-1,architect in-symbol tag,F-1,False,768.2,501.5,121.04,17.0,0.0,7.1x7.0,,point inside room region,counted,,,,Model not supplied
+E-T138,A06.04A (east),422,MIMEO FILES,HDF-900,R033,F-1,architect in-symbol tag,F-1,False,1140.2,825.7,162.37,-19.02,0.0,7.1x7.0,,point inside room region,counted,,,,Model not supplied
+E-T139,A06.04A (east),421,DEPARTMENT 3,HDF-900,R030,F-1,architect in-symbol tag,F-1,False,1281.0,784.4,178.01,-14.43,0.0,7.1x7.0,,point inside room region,counted,,,,Model not supplied
+E-T140,A06.04A (east),414,E / O,AUD-300.2R,R014,D-6A,architect in-symbol tag,D-6A,False,1178.9,442.7,166.67,23.53,-62.1,38.4x45.5,E-S01,point inside room region,counted,,,,Model not supplied
+E-T141,A06.04A (east),414,E / O,AUD-300.2R,R014,F,architect in-symbol tag,F,False,1206.6,442.0,169.75,23.61,-62.1,29.2x22.4,E-S01,point inside room region,counted,,,,Model not supplied
+E-T142,A06.04A (east),427,CLASS ROOM,MFN-314,R044,D-11.2,architect in-symbol tag,D-11.2,False,729.0,809.6,116.68,-17.24,-90.0,22.6x40.4,,point inside room region,counted,,,,Model not supplied
+E-T143,A06.04A (east),427,CLASS ROOM,MFN-315,R045,D-4.1A,architect in-symbol tag,D-4.1A,False,725.3,840.2,116.27,-20.63,-90.0,15.0x30.0,,point inside room region,counted,,,,Model not supplied
+E-T144,A06.04A (east),427,CLASS ROOM,MFN-317,R047,CAB-15A.3,architect in-symbol tag,CAB-15A.3,False,772.9,734.9,121.56,-8.94,0.0,93.5x14.9,,point inside room region,counted,,,,Model not supplied
+E-T145,A06.04A (east),427,CLASS ROOM,MFN-316,R046,B-5A.4,architect in-symbol tag,B-5A.4,False,800.2,737.1,124.59,-9.18,0.0,93.5x14.9,,point inside room region,counted,,,,Model not supplied
+E-T146,A06.04A (east),427,CLASS ROOM,MFN-316,R046,B-5A.4,architect in-symbol tag,B-5A.4,False,828.1,737.1,127.69,-9.18,0.0,93.5x14.9,,point inside room region,counted,,,,Model not supplied
+E-T147,A06.04A (east),427,CLASS ROOM,MFN-312,R042,T-1,architect in-symbol tag,T-1,False,831.2,846.2,128.04,-21.3,0.0,36.0x18.0,,point inside room region,counted,,,,Model not supplied
+E-T148,A06.04A (east),427,CLASS ROOM,MFN-313,R043,T-8,architect in-symbol tag,T-8,False,778.8,849.3,122.21,-21.65,-44.9,18.1x17.9,,point inside room region,counted,,,,Model not supplied
+E-T149,A06.04A (east),433B,CENTRAL FILES,MFN-323,R056,D-8.1,architect in-symbol tag,D-8.1,False,213.2,861.4,59.37,-22.99,0.0,40.6x22.6,,point inside room region,counted,,,,Model not supplied
+E-T150,A06.04A (east),417,CHIEF ETHICS OFFICER,AUD-300.2R,R023,D-6A,architect in-symbol tag,D-6A,False,1290.6,637.7,179.08,1.87,-90.0,22.4x39.7,E-S02,point inside room region,counted,,,,Model not supplied
+E-T151,A06.04A (east),417,CHIEF ETHICS OFFICER,AUD-300.2R,R023,F,architect in-symbol tag,F,False,1266.3,651.0,176.37,0.39,-90.0,27.0x11.2,E-S02,point inside room region,counted,,,,Model not supplied
+E-T152,A06.04A (east),416,E / O,AUD-300.2R,R020,D-6A,architect in-symbol tag,D-6A,False,1294.6,555.9,179.53,10.96,-21.9,45.2x35.5,E-S03,point inside room region,counted,,,,Model not supplied
+E-T153,A06.04A (east),416,E / O,AUD-300.2R,R020,F,architect in-symbol tag,F,False,1316.3,573.4,181.93,9.01,-21.9,20.5x29.0,E-S03,point inside room region,counted,,,,Model not supplied
+E-T154,A06.04A (east),415,E / O,AUD-300.2R,R017,D-6A,architect in-symbol tag,D-6A,False,1246.3,487.8,174.15,18.52,-42.3,44.5x43.3,E-S04,point inside room region,counted,,,,Model not supplied
+E-T155,A06.04A (east),415,E / O,AUD-300.2R,R017,F,architect in-symbol tag,F,False,1272.6,496.8,177.08,17.52,-42.3,26.4x27.5,E-S04,point inside room region,counted,,,,Model not supplied
+E-T156,A06.04A (east),418,ETHICS OFFICER,AUD-300.2R,R026,D-6A,architect in-symbol tag,D-6A,False,1132.3,611.7,161.49,4.75,-90.0,22.4x39.7,E-S05,point inside room region,counted,,,,Model not supplied
+E-T157,A06.04A (east),418,ETHICS OFFICER,AUD-300.2R,R026,F,architect in-symbol tag,F,False,1156.7,598.3,164.2,6.24,-90.0,27.0x11.2,E-S05,point inside room region,counted,,,,Model not supplied
+E-T163,A06.04A (east),452,BOOKSTOCKS,,,B1,dealer component tag,B1,False,170.0,374.8,54.56,31.08,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T164,A06.04A (east),452,BOOKSTOCKS,,,B1,dealer component tag,B1,False,206.0,374.8,58.56,31.08,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T165,A06.04A (east),452,BOOKSTOCKS,,,B1,dealer component tag,B1,False,170.0,442.2,54.56,23.59,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T166,A06.04A (east),452,BOOKSTOCKS,,,B1,dealer component tag,B1,False,206.0,442.2,58.56,23.59,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T167,A06.04A (east),452,BOOKSTOCKS,,,B1,dealer component tag,B1,False,170.0,429.8,54.56,24.96,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T168,A06.04A (east),452,BOOKSTOCKS,,,B1,dealer component tag,B1,False,206.0,429.8,58.56,24.96,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T169,A06.04A (east),452,BOOKSTOCKS,,,B1,dealer component tag,B1,False,170.0,509.8,54.56,16.08,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T170,A06.04A (east),452,BOOKSTOCKS,,,B1,dealer component tag,B1,False,206.0,509.8,58.56,16.08,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T171,A06.04A (east),452,BOOKSTOCKS,,,B1,dealer component tag,B1,False,170.0,497.4,54.56,17.46,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T172,A06.04A (east),452,BOOKSTOCKS,,,B1,dealer component tag,B1,False,206.0,497.4,58.56,17.46,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T173,A06.04A (east),452,BOOKSTOCKS,,,D8,dealer component tag,D8,False,200.9,574.1,58.0,8.94,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T174,A06.04A (east),452,BOOKSTOCKS,,,P1,dealer component tag,P1,False,214.3,573.7,59.49,8.98,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T175,A06.04A (east),452,BOOKSTOCKS,,,B1,dealer component tag,B1,False,260.1,519.1,64.58,15.04,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T176,A06.04A (east),452,BOOKSTOCKS,,,B1,dealer component tag,B1,False,260.8,491.4,64.66,18.12,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T177,A06.04A (east),452,BOOKSTOCKS,,,B1,dealer component tag,B1,False,259.8,464.8,64.55,21.08,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T178,A06.04A (east),452,BOOKSTOCKS,,,B1,dealer component tag,B1,False,259.6,438.4,64.52,24.02,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T179,A06.04A (east),452,BOOKSTOCKS,,,B1,dealer component tag,B1,False,260.1,410.6,64.58,27.1,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T180,A06.04A (east),452,BOOKSTOCKS,,,B1,dealer component tag,B1,False,260.3,384.2,64.6,30.03,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T181,A06.04A (east),452,BOOKSTOCKS,,,O1,dealer component tag,O1,False,170.4,585.8,54.62,7.63,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T182,A06.04A (east),452,BOOKSTOCKS,,,O1,dealer component tag,O1,False,203.1,585.6,58.24,7.66,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T183,A06.04A (east),453,PROMOTION & MARKETING,,,D11,dealer component tag,D11,False,295.0,503.6,68.46,16.76,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T184,A06.04A (east),453,PROMOTION & MARKETING,,,D3,dealer component tag,D3,False,274.5,477.0,66.18,19.72,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T185,A06.04A (east),453,PROMOTION & MARKETING,,,P1,dealer component tag,P1,False,311.5,500.0,70.29,17.16,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T186,A06.04A (east),453,PROMOTION & MARKETING,,,D11,dealer component tag,D11,False,295.2,525.0,68.48,14.39,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T187,A06.04A (east),453,PROMOTION & MARKETING,,,P1,dealer component tag,P1,False,310.9,528.6,70.22,13.99,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T188,A06.04A (east),453,PROMOTION & MARKETING,,,D11,dealer component tag,D11,False,295.0,418.2,68.46,26.26,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T189,A06.04A (east),453,PROMOTION & MARKETING,,,D3,dealer component tag,D3,False,274.5,387.2,66.18,29.71,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T190,A06.04A (east),453,PROMOTION & MARKETING,,,P1,dealer component tag,P1,False,311.5,414.6,70.29,26.66,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T191,A06.04A (east),453,PROMOTION & MARKETING,,,D3,dealer component tag,D3,False,294.8,368.0,68.43,31.83,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T192,A06.04A (east),453,PROMOTION & MARKETING,,,D3,dealer component tag,D3,False,274.5,547.5,66.18,11.89,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T193,A06.04A (east),453,PROMOTION & MARKETING,,,F3,dealer component tag,F3,False,369.4,378.1,76.73,30.71,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T194,A06.04A (east),453,PROMOTION & MARKETING,,,CAB15,dealer component tag,CAB15,False,369.4,407.5,76.72,27.45,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T195,A06.04A (east),453,PROMOTION & MARKETING,,,CAB2,dealer component tag,CAB2,False,369.4,432.5,76.72,24.67,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T196,A06.04A (east),453,PROMOTION & MARKETING,,,D8,dealer component tag,D8,False,376.2,428.4,77.47,25.13,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T197,A06.04A (east),453,PROMOTION & MARKETING,,,D8,dealer component tag,D8,False,376.2,393.2,77.47,29.03,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T198,A06.04A (east),453,PROMOTION & MARKETING,,,O4,dealer component tag,O4,False,388.8,386.1,78.87,29.83,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T199,A06.04A (east),453,PROMOTION & MARKETING,,,O4,dealer component tag,O4,False,388.8,422.9,78.87,25.73,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T200,A06.04A (east),453,PROMOTION & MARKETING,,,O4,dealer component tag,O4,False,449.9,489.4,85.67,18.35,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T201,A06.04A (east),453,PROMOTION & MARKETING,,,O4,dealer component tag,O4,False,483.9,489.4,89.44,18.35,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T202,A06.04A (east),453,PROMOTION & MARKETING,,,O4,dealer component tag,O4,False,517.5,489.4,93.18,18.35,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T203,A06.04A (east),453,PROMOTION & MARKETING,,,O4,dealer component tag,O4,False,556.6,489.4,97.52,18.35,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T204,A06.04A (east),453,PROMOTION & MARKETING,,,O4,dealer component tag,O4,False,604.5,426.0,102.85,25.39,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T205,A06.04A (east),453,PROMOTION & MARKETING,,,O4,dealer component tag,O4,False,604.5,458.1,102.85,21.82,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T206,A06.04A (east),453,PROMOTION & MARKETING,,,CAB15,dealer component tag,CAB15,False,463.2,367.0,87.15,31.94,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T207,A06.04A (east),453,PROMOTION & MARKETING,,,D8,dealer component tag,D8,False,499.2,363.5,91.15,32.34,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T208,A06.04A (east),453,PROMOTION & MARKETING,,,P1,dealer component tag,P1,False,539.4,369.8,95.61,31.63,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T209,A06.04A (east),453,PROMOTION & MARKETING,,,P1,dealer component tag,P1,False,597.5,403.4,102.06,27.9,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T210,A06.04A (east),453,PROMOTION & MARKETING,,,D8,dealer component tag,D8,False,562.5,365.9,98.18,32.07,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T211,A06.04A (east),453,PROMOTION & MARKETING,,,D8,dealer component tag,D8,False,600.4,389.3,102.39,29.47,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T212,A06.04A (east),453,PROMOTION & MARKETING,,,F5,dealer component tag,F5,False,494.5,424.3,90.62,25.58,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T213,A06.04A (east),453,PROMOTION & MARKETING,,,F4,dealer component tag,F4,False,513.5,418.4,92.73,26.23,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T214,A06.04A (east),453,PROMOTION & MARKETING,,,CAB9,dealer component tag,CAB9,False,516.8,434.1,93.1,24.49,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T215,A06.04A (east),453,PROMOTION & MARKETING,,,CAB8,dealer component tag,CAB8,False,538.7,425.3,95.53,25.47,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T216,A06.04A (east),456,TREASURY,,,D11,dealer component tag,D11,False,792.8,377.4,123.77,30.79,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T217,A06.04A (east),456,TREASURY,,,D3,dealer component tag,D3,False,821.9,362.3,127.0,32.47,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T218,A06.04A (east),456,TREASURY,,,P1,dealer component tag,P1,False,794.2,397.1,123.93,28.61,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T219,A06.04A (east),456,TREASURY,,,D3,dealer component tag,D3,False,841.0,382.6,129.13,30.21,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T220,A06.04A (east),456,TREASURY,,,F3,dealer component tag,F3,False,841.9,395.4,129.22,28.79,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T221,A06.04A (east),456,TREASURY,,,D11,dealer component tag,D11,False,726.0,383.1,116.35,30.15,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T222,A06.04A (east),456,TREASURY,,,P1,dealer component tag,P1,False,722.4,398.7,115.94,28.43,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T223,A06.04A (east),456,TREASURY,,,D3,dealer component tag,D3,False,697.5,362.3,113.18,32.47,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T224,A06.04A (east),456,TREASURY,,,D11,dealer component tag,D11,False,672.0,383.1,110.35,30.15,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T225,A06.04A (east),456,TREASURY,,,P1,dealer component tag,P1,False,668.4,398.7,109.94,28.43,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T226,A06.04A (east),456,TREASURY,,,D3,dealer component tag,D3,False,639.8,362.2,106.76,32.48,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T227,A06.04A (east),456,TREASURY,,,F3,dealer component tag,F3,False,624.4,410.0,105.06,27.17,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T228,A06.04A (east),456,TREASURY,,,F3,dealer component tag,F3,False,623.6,382.1,104.97,30.27,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T229,A06.04A (east),456,TREASURY,,,CAB2,dealer component tag,CAB2,False,624.6,434.9,105.08,24.4,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T230,A06.04A (east),456,TREASURY,,,D8,dealer component tag,D8,False,617.8,439.0,104.33,23.94,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T231,A06.04A (east),456,TREASURY,,,O1,dealer component tag,O1,False,617.8,460.5,104.33,21.56,-90.3,12.7x14.3,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T232,A06.04A (east),456,TREASURY,,,O1,dealer component tag,O1,False,617.8,400.4,104.33,28.24,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T233,A06.04A (east),456,TREASURY,,,D11,dealer component tag,D11,False,692.9,474.3,112.67,20.02,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T234,A06.04A (east),456,TREASURY,,,D3,dealer component tag,D3,False,669.2,490.8,110.03,18.19,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T235,A06.04A (east),456,TREASURY,,,P1,dealer component tag,P1,False,691.4,454.7,112.5,22.2,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T236,A06.04A (east),410,DEPARTMENT 1,,,D11,dealer component tag,D11,False,929.3,382.9,138.93,30.18,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T237,A06.04A (east),410,DEPARTMENT 1,,,D3,dealer component tag,D3,False,955.8,362.3,141.88,32.47,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T238,A06.04A (east),410,DEPARTMENT 1,,,P1,dealer component tag,P1,False,932.8,399.4,139.33,28.35,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T239,A06.04A (east),410,DEPARTMENT 1,,,D11,dealer component tag,D11,False,907.9,383.1,136.56,30.15,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T240,A06.04A (east),410,DEPARTMENT 1,,,P1,dealer component tag,P1,False,904.3,398.7,136.15,28.43,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T241,A06.04A (east),410,DEPARTMENT 1,,,D3,dealer component tag,D3,False,884.9,362.3,134.0,32.47,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T242,A06.04A (east),410,DEPARTMENT 1,,,D11,dealer component tag,D11,False,905.4,471.8,136.28,20.3,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T243,A06.04A (east),410,DEPARTMENT 1,,,D3,dealer component tag,D3,False,881.6,488.3,133.63,18.47,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T244,A06.04A (east),410,DEPARTMENT 1,,,P1,dealer component tag,P1,False,903.8,452.2,136.1,22.48,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T245,A06.04A (east),410,DEPARTMENT 1,,,F3,dealer component tag,F3,False,866.5,451.9,131.95,22.51,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T246,A06.04A (east),410,DEPARTMENT 1,,,F3,dealer component tag,F3,False,865.6,397.3,131.86,28.58,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T247,A06.04A (east),410,DEPARTMENT 1,,,D8,dealer component tag,D8,False,861.4,378.2,131.39,30.7,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T248,A06.04A (east),410,DEPARTMENT 1,,,D8,dealer component tag,D8,False,865.6,474.2,131.86,20.04,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T249,A06.04A (east),410,DEPARTMENT 1,,,CAB15,dealer component tag,CAB15,False,866.3,424.0,131.93,25.61,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T250,A06.04A (east),410,DEPARTMENT 1,,,O1,dealer component tag,O1,False,856.8,456.3,130.87,22.02,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T251,A06.04A (east),410,DEPARTMENT 1,,,O1,dealer component tag,O1,False,855.9,416.2,130.78,26.48,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T252,A06.04A (east),410,DEPARTMENT 1,,,O1,dealer component tag,O1,False,855.9,401.8,130.78,28.08,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T253,A06.04A (east),411,HCO AREA SECRETARY,,,F3,dealer component tag,F3,False,1011.7,449.3,148.09,22.8,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T254,A06.04A (east),411,HCO AREA SECRETARY,,,B5A,dealer component tag,B5A,False,986.1,449.3,145.24,22.8,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T255,A06.04A (east),411,HCO AREA SECRETARY,,,D11,dealer component tag,D11,False,1032.6,383.1,150.41,30.15,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T256,A06.04A (east),411,HCO AREA SECRETARY,,,P1,dealer component tag,P1,False,1029.1,398.7,150.02,28.43,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T257,A06.04A (east),411,HCO AREA SECRETARY,,,D3,dealer component tag,D3,False,1000.4,362.3,146.83,32.47,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T258,A06.04A (east),411,HCO AREA SECRETARY,,,D3,dealer component tag,D3,False,977.8,383.0,144.33,30.17,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T259,A06.04A (east),407,HCO COPE,,,D11,dealer component tag,D11,False,912.3,525.3,137.04,14.35,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T260,A06.04A (east),407,HCO COPE,,,P1,dealer component tag,P1,False,908.6,540.9,136.63,12.63,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T261,A06.04A (east),407,HCO COPE,,,D3,dealer component tag,D3,False,880.0,504.4,133.46,16.68,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T262,A06.04A (east),407,HCO COPE,,,D3,dealer component tag,D3,False,857.5,525.2,130.95,14.37,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T263,A06.04A (east),407,HCO COPE,,,F3,dealer component tag,F3,False,857.4,565.2,130.94,9.93,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T264,A06.04A (east),407,HCO COPE,,,F3,dealer component tag,F3,False,857.4,538.2,130.94,12.93,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T265,A06.04A (east),432,PANTRY,,,B1,dealer component tag,B1,False,425.9,752.5,83.0,-10.89,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T266,A06.04A (east),430,HCO BACK FILES,,,B1,dealer component tag,B1,False,472.5,665.3,88.18,-1.2,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T267,A06.04A (east),430,HCO BACK FILES,,,B1,dealer component tag,B1,False,510.8,666.5,92.43,-1.33,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T268,A06.04A (east),430,HCO BACK FILES,,,B1,dealer component tag,B1,False,460.4,693.5,86.83,-4.33,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T269,A06.04A (east),430,HCO BACK FILES,,,B1,dealer component tag,B1,False,469.0,719.4,87.79,-7.21,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T270,A06.04A (east),430,HCO BACK FILES,,,B1,dealer component tag,B1,False,496.7,719.4,90.87,-7.21,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T271,A06.04A (east),430,HCO BACK FILES,,,B1,dealer component tag,B1,False,528.2,718.7,94.36,-7.13,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T272,A06.04A (east),430,HCO BACK FILES,,,B1,dealer component tag,B1,False,562.1,719.0,98.14,-7.17,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T273,A06.04A (east),428,CLOSET,,,B1,dealer component tag,B1,False,708.3,856.6,114.38,-22.46,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T274,A06.04A (east),428,CLOSET,,,B1,dealer component tag,B1,False,708.3,825.1,114.38,-18.95,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T275,A06.04A (east),424,PROCURMENT OFFICER,,,D11,dealer component tag,D11,False,868.0,835.5,132.13,-20.11,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T276,A06.04A (east),424,PROCURMENT OFFICER,,,P1,dealer component tag,P1,False,867.9,816.8,132.11,-18.04,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T277,A06.04A (east),424,PROCURMENT OFFICER,,,B5A,dealer component tag,B5A,False,923.6,869.0,138.3,-23.84,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T278,A06.04A (east),424,PROCURMENT OFFICER,,,F3,dealer component tag,F3,False,955.6,821.1,141.86,-18.51,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T279,A06.04A (east),424,PROCURMENT OFFICER,,,CAB15,dealer component tag,CAB15,False,956.1,846.3,141.91,-21.31,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T280,A06.04A (east),424,PROCURMENT OFFICER,,,B5A,dealer component tag,B5A,False,942.4,869.9,140.39,-23.93,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T281,A06.04A (east),423,DEPARTMENT 2,,,P1,dealer component tag,P1,False,1069.5,811.5,154.51,-17.44,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T282,A06.04A (east),423,DEPARTMENT 2,,,D8,dealer component tag,D8,False,1069.5,781.9,154.51,-14.15,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T283,A06.04A (east),423,DEPARTMENT 2,,,D8,dealer component tag,D8,False,1069.5,853.6,154.51,-22.13,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T284,A06.04A (east),423,DEPARTMENT 2,,,CAB1,dealer component tag,CAB1,False,997.5,861.4,146.52,-22.99,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T285,A06.04A (east),423,DEPARTMENT 2,,,CAB1,dealer component tag,CAB1,False,1025.5,861.4,149.62,-22.99,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T286,A06.04A (east),423,DEPARTMENT 2,,,CAB1,dealer component tag,CAB1,False,1052.9,861.4,152.66,-22.99,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T287,A06.04A (east),423,DEPARTMENT 2,,,O1,dealer component tag,O1,False,1080.6,782.2,155.74,-14.19,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T288,A06.04A (east),423,DEPARTMENT 2,,,O4,dealer component tag,O4,False,1080.6,826.9,155.74,-19.15,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T289,A06.04A (east),422,MIMEO FILES,,,O4,dealer component tag,O4,False,1221.4,849.0,171.39,-21.61,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T290,A06.04A (east),422,MIMEO FILES,,,O4,dealer component tag,O4,False,1221.4,812.1,171.39,-17.51,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T291,A06.04A (east),421,DEPARTMENT 3,,,CAB15,dealer component tag,CAB15,False,1270.2,670.3,176.82,-1.75,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T292,A06.04A (east),421,DEPARTMENT 3,,,CAB15,dealer component tag,CAB15,False,1245.4,670.3,174.06,-1.75,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T293,A06.04A (east),421,DEPARTMENT 3,,,CAB2,dealer component tag,CAB2,False,1314.6,674.9,181.74,-2.27,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T294,A06.04A (east),421,DEPARTMENT 3,,,CAB5,dealer component tag,CAB5,False,1291.9,674.9,179.22,-2.27,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T295,A06.04A (east),421,DEPARTMENT 3,,,P1,dealer component tag,P1,False,1332.7,747.4,183.75,-10.32,179.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T296,A06.04A (east),421,DEPARTMENT 3,,,D11,dealer component tag,D11,False,1355.6,748.4,186.3,-10.43,179.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T297,A06.04A (east),421,DEPARTMENT 3,,,P1,dealer component tag,P1,False,1336.8,672.0,184.21,-1.94,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T298,A06.04A (east),421,DEPARTMENT 3,,,D11,dealer component tag,D11,False,1354.7,671.0,186.2,-1.84,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T299,A06.04A (east),421,DEPARTMENT 3,,,D3,dealer component tag,D3,False,1375.0,697.8,188.46,-4.81,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T300,A06.04A (east),421,DEPARTMENT 3,,,D3,dealer component tag,D3,False,1375.0,723.7,188.46,-7.69,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T301,A06.04A (east),421,DEPARTMENT 3,,,P1,dealer component tag,P1,False,1336.8,770.9,184.21,-12.93,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T302,A06.04A (east),421,DEPARTMENT 3,,,D11,dealer component tag,D11,False,1354.7,769.9,186.2,-12.82,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T303,A06.04A (east),421,DEPARTMENT 3,,,D3,dealer component tag,D3,False,1375.0,796.6,188.46,-15.79,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T304,A06.04A (east),421,DEPARTMENT 3,,,P1,dealer component tag,P1,False,1336.8,820.3,184.21,-18.42,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T305,A06.04A (east),421,DEPARTMENT 3,,,D11,dealer component tag,D11,False,1354.7,819.4,186.2,-18.32,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T306,A06.04A (east),421,DEPARTMENT 3,,,D3,dealer component tag,D3,False,1375.0,846.1,188.46,-21.29,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-T307,A06.04A (east),421,DEPARTMENT 3,,,D3,dealer component tag,D3,False,1352.4,865.3,185.95,-23.42,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+E-W01,A06.04A (east),421,DEPARTMENT 3,WTR-500,R032,glazing bay,glazing pane (no tag),,False,1248.1,877.7,174.36,-24.8,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+E-W02,A06.04A (east),421,DEPARTMENT 3,WTR-500,R032,glazing bay,glazing pane (no tag),,False,1282.9,877.7,178.23,-24.8,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+E-W03,A06.04A (east),421,DEPARTMENT 3,WTR-500,R032,glazing bay,glazing pane (no tag),,False,1317.9,877.7,182.11,-24.8,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+E-W04,A06.04A (east),421,DEPARTMENT 3,WTR-500,R032,glazing bay,glazing pane (no tag),,False,1352.7,877.7,185.97,-24.8,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+E-W05,A06.04A (east),422,MIMEO FILES,WTR-500,R034,glazing bay,glazing pane (no tag),,False,1213.2,877.7,170.48,-24.8,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+E-W06,A06.04A (east),422,MIMEO FILES,WTR-500,R034,glazing bay,glazing pane (no tag),,False,1178.4,877.7,166.61,-24.8,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+E-W07,A06.04A (east),422,MIMEO FILES,WTR-500,R034,glazing bay,glazing pane (no tag),,False,1143.5,877.7,162.73,-24.8,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+E-W08,A06.04A (east),422,MIMEO FILES,WTR-500,R034,glazing bay,glazing pane (no tag),,False,1108.7,877.7,158.87,-24.8,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+E-W09,A06.04A (east),423,DEPARTMENT 2,WTR-500,R037,glazing bay,glazing pane (no tag),,False,1073.8,877.7,154.99,-24.8,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+E-W10,A06.04A (east),423,DEPARTMENT 2,WTR-500,R037,glazing bay,glazing pane (no tag),,False,1039.0,877.7,151.12,-24.8,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+E-W11,A06.04A (east),423,DEPARTMENT 2,WTR-500,R037,glazing bay,glazing pane (no tag),,False,1004.1,877.7,147.25,-24.8,0,33.2 long,,single room on interior side,counted,,,,Model not supplied
+E-W12,A06.04A (east),423,DEPARTMENT 2,WTR-500,R037,glazing bay,glazing pane (no tag),,False,969.3,877.7,143.37,-24.8,0,33.4 long,,"pane spans/adjoins several rooms {'424': 1, '423': 2}",counted,,,,Model not supplied
+E-W13,A06.04A (east),424,PROCURMENT OFFICER,WTR-500,R041,glazing bay,glazing pane (no tag),,False,934.5,877.7,139.51,-24.8,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+E-W14,A06.04A (east),,,,,glazing bay,glazing pane (no tag),,False,899.5,877.7,135.63,-24.8,0,33.4 long,,no room found on either side,window bay in room without WTR leader,,,,Model not supplied
+E-W15,A06.04A (east),424,PROCURMENT OFFICER,WTR-500,R041,glazing bay,glazing pane (no tag),,False,864.7,877.7,131.76,-24.8,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+E-W16,A06.04A (east),427,CLASS ROOM,,,glazing bay,glazing pane (no tag),,False,829.8,877.7,127.88,-24.8,0,33.4 long,,single room on interior side,window bay in room without WTR leader,,,,Model not supplied
+E-W17,A06.04A (east),427,CLASS ROOM,,,glazing bay,glazing pane (no tag),,False,795.0,877.7,124.01,-24.8,0,33.4 long,,single room on interior side,window bay in room without WTR leader,,,,Model not supplied
+E-W18,A06.04A (east),427,CLASS ROOM,,,glazing bay,glazing pane (no tag),,False,760.1,877.7,120.13,-24.8,0,33.4 long,,single room on interior side,window bay in room without WTR leader,,,,Model not supplied
+E-W19,A06.04A (east),427,CLASS ROOM,,,glazing bay,glazing pane (no tag),,False,725.3,877.7,116.27,-24.8,0,33.4 long,,single room on interior side,window bay in room without WTR leader,,,,Model not supplied
+E-W20,A06.04A (east),428,CLOSET,,,glazing bay,glazing pane (no tag),,False,690.4,877.7,112.39,-24.8,0,33.4 long,,single room on interior side,window bay in room without WTR leader,,,,Model not supplied
+E-W21,A06.04A (east),,,,,glazing bay,glazing pane (no tag),,False,655.6,877.7,108.52,-24.8,0,33.4 long,,no room found on either side,window bay in room without WTR leader,,,,Model not supplied
+E-W22,A06.04A (east),431,LUNCH ROOM,WTR-500,R054,glazing bay,glazing pane (no tag),,False,620.7,877.7,104.65,-24.8,0,33.2 long,,single room on interior side,counted,,,,Model not supplied
+E-W23,A06.04A (east),431,LUNCH ROOM,WTR-500,R054,glazing bay,glazing pane (no tag),,False,585.9,877.7,100.77,-24.8,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+E-W24,A06.04A (east),431,LUNCH ROOM,WTR-500,R054,glazing bay,glazing pane (no tag),,False,551.1,877.7,96.91,-24.8,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+E-W25,A06.04A (east),431,LUNCH ROOM,WTR-500,R054,glazing bay,glazing pane (no tag),,False,516.1,877.7,93.03,-24.8,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+E-W26,A06.04A (east),431,LUNCH ROOM,WTR-500,R054,glazing bay,glazing pane (no tag),,False,481.3,877.7,89.16,-24.8,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+E-W27,A06.04A (east),431,LUNCH ROOM,WTR-500,R054,glazing bay,glazing pane (no tag),,False,446.4,877.7,85.28,-24.8,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+E-W28,A06.04A (east),433B,CENTRAL FILES,WTR-500,R059,glazing bay,glazing pane (no tag),,False,411.6,877.7,81.41,-24.8,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+E-W29,A06.04A (east),433B,CENTRAL FILES,WTR-500,R059,glazing bay,glazing pane (no tag),,False,376.7,877.7,77.53,-24.8,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+E-W30,A06.04A (east),433B,CENTRAL FILES,WTR-500,R059,glazing bay,glazing pane (no tag),,False,341.9,877.7,73.67,-24.8,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+E-W31,A06.04A (east),433B,CENTRAL FILES,WTR-500,R059,glazing bay,glazing pane (no tag),,False,307.0,877.7,69.79,-24.8,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+E-W32,A06.04A (east),433B,CENTRAL FILES,WTR-500,R059,glazing bay,glazing pane (no tag),,False,272.2,877.7,65.92,-24.8,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+E-W33,A06.04A (east),433B,CENTRAL FILES,WTR-500,R059,glazing bay,glazing pane (no tag),,False,237.3,877.7,62.05,-24.8,0,33.2 long,,single room on interior side,counted,,,,Model not supplied
+E-W34,A06.04A (east),433B,CENTRAL FILES,WTR-500,R059,glazing bay,glazing pane (no tag),,False,202.5,877.7,58.17,-24.8,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+E-W35,A06.04A (east),433B,CENTRAL FILES,WTR-500,R059,glazing bay,glazing pane (no tag),,False,167.7,877.7,54.31,-24.8,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+E-W37,A06.04A (east),421,DEPARTMENT 3,WTR-500,R032,glazing bay,glazing pane (no tag),,False,1387.0,844.0,189.79,-21.05,90,32.3 long,,single room on interior side,counted,,,,Model not supplied
+E-W38,A06.04A (east),421,DEPARTMENT 3,WTR-500,R032,glazing bay,glazing pane (no tag),,False,1387.0,810.2,189.79,-17.3,90,32.2 long,,single room on interior side,counted,,,,Model not supplied
+E-W39,A06.04A (east),421,DEPARTMENT 3,WTR-500,R032,glazing bay,glazing pane (no tag),,False,1387.0,776.4,189.79,-13.54,90,32.3 long,,single room on interior side,counted,,,,Model not supplied
+E-W40,A06.04A (east),421,DEPARTMENT 3,WTR-500,R032,glazing bay,glazing pane (no tag),,False,1387.0,742.7,189.79,-9.8,90,32.3 long,,single room on interior side,counted,,,,Model not supplied
+E-W41,A06.04A (east),421,DEPARTMENT 3,WTR-500,R032,glazing bay,glazing pane (no tag),,False,1387.0,709.0,189.79,-6.05,90,32.3 long,,single room on interior side,counted,,,,Model not supplied
+E-W42,A06.04A (east),421,DEPARTMENT 3,WTR-500,R032,glazing bay,glazing pane (no tag),,False,1387.0,675.2,189.79,-2.3,90,32.2 long,,single room on interior side,counted,,,,Model not supplied
+E-W44,A06.04A (east),453,PROMOTION & MARKETING,WTR-500,R065,glazing bay,glazing pane (no tag),,False,407.7,350.4,80.97,33.79,0,32.6 long,,single room on interior side,counted,,,,Model not supplied
+E-W45,A06.04A (east),453,PROMOTION & MARKETING,WTR-500,R065,glazing bay,glazing pane (no tag),,False,441.7,350.4,84.76,33.79,0,32.6 long,,single room on interior side,counted,,,,Model not supplied
+E-W46,A06.04A (east),453,PROMOTION & MARKETING,WTR-500,R065,glazing bay,glazing pane (no tag),,False,475.9,350.4,88.56,33.79,0,32.6 long,,single room on interior side,counted,,,,Model not supplied
+E-W47,A06.04A (east),453,PROMOTION & MARKETING,WTR-500,R065,glazing bay,glazing pane (no tag),,False,510.0,350.4,92.35,33.79,0,32.6 long,,single room on interior side,counted,,,,Model not supplied
+E-W48,A06.04A (east),453,PROMOTION & MARKETING,WTR-500,R065,glazing bay,glazing pane (no tag),,False,544.1,350.4,96.13,33.79,0,32.6 long,,single room on interior side,counted,,,,Model not supplied
+E-W49,A06.04A (east),453,PROMOTION & MARKETING,WTR-500,R065,glazing bay,glazing pane (no tag),,False,578.3,350.4,99.93,33.79,0,32.6 long,,single room on interior side,counted,,,,Model not supplied
+E-W50,A06.04A (east),453,PROMOTION & MARKETING,WTR-500,R065,glazing bay,glazing pane (no tag),,False,612.4,350.4,103.72,33.79,0,32.6 long,,"pane spans/adjoins several rooms {'453': 1, '456': 1}",counted,,,,Model not supplied
+E-W51,A06.04A (east),456,TREASURY,WTR-500,R071,glazing bay,glazing pane (no tag),,False,646.6,350.4,107.52,33.79,0,32.6 long,,single room on interior side,counted,,,,Model not supplied
+E-W52,A06.04A (east),456,TREASURY,WTR-500,R071,glazing bay,glazing pane (no tag),,False,680.7,350.4,111.31,33.79,0,32.6 long,,single room on interior side,counted,,,,Model not supplied
+E-W53,A06.04A (east),456,TREASURY,WTR-500,R071,glazing bay,glazing pane (no tag),,False,714.7,350.4,115.09,33.79,0,32.6 long,,single room on interior side,counted,,,,Model not supplied
+E-W54,A06.04A (east),456,TREASURY,WTR-500,R071,glazing bay,glazing pane (no tag),,False,748.9,350.4,118.89,33.79,0,32.6 long,,single room on interior side,counted,,,,Model not supplied
+E-W55,A06.04A (east),456,TREASURY,WTR-500,R071,glazing bay,glazing pane (no tag),,False,783.0,350.4,122.68,33.79,0,32.6 long,,single room on interior side,counted,,,,Model not supplied
+E-W56,A06.04A (east),456,TREASURY,WTR-500,R071,glazing bay,glazing pane (no tag),,False,817.2,350.4,126.47,33.79,0,32.5 long,,single room on interior side,counted,,,,Model not supplied
+E-W57,A06.04A (east),456,TREASURY,WTR-500,R071,glazing bay,glazing pane (no tag),,False,851.3,350.4,130.27,33.79,0,32.6 long,,"pane spans/adjoins several rooms {'456': 1, '410': 1}",counted,,,,Model not supplied
+E-W58,A06.04A (east),410,DEPARTMENT 1,WTR-500,R007,glazing bay,glazing pane (no tag),,False,885.4,350.4,134.05,33.79,0,32.6 long,,single room on interior side,counted,,,,Model not supplied
+E-W59,A06.04A (east),410,DEPARTMENT 1,WTR-500,R007,glazing bay,glazing pane (no tag),,False,919.6,350.4,137.85,33.79,0,32.6 long,,single room on interior side,counted,,,,Model not supplied
+E-W60,A06.04A (east),410,DEPARTMENT 1,WTR-500,R007,glazing bay,glazing pane (no tag),,False,953.7,350.4,141.64,33.79,0,32.6 long,,single room on interior side,counted,,,,Model not supplied
+E-W61,A06.04A (east),411,HCO AREA SECRETARY,,,glazing bay,glazing pane (no tag),,False,987.7,350.4,145.43,33.79,0,32.6 long,,single room on interior side,window bay in room without WTR leader,,,,Model not supplied
+E-W62,A06.04A (east),411,HCO AREA SECRETARY,,,glazing bay,glazing pane (no tag),,False,1021.9,350.4,149.23,33.79,0,32.6 long,,single room on interior side,window bay in room without WTR leader,,,,Model not supplied
+E-W63,A06.04A (east),411,HCO AREA SECRETARY,,,glazing bay,glazing pane (no tag),,False,1056.0,350.4,153.01,33.79,0,32.6 long,,single room on interior side,window bay in room without WTR leader,,,,Model not supplied
+E-W64,A06.04A (east),452,BOOKSTOCKS,WTR-500,R061,glazing bay,glazing pane (no tag),,False,173.5,356.9,54.96,33.06,0,33.6 long,,single room on interior side,counted,,,,Model not supplied
+E-W65,A06.04A (east),452,BOOKSTOCKS,WTR-500,R061,glazing bay,glazing pane (no tag),,False,209.4,356.9,58.94,33.06,0,35.2 long,,single room on interior side,counted,,,,Model not supplied
+E-W66,A06.04A (east),452,BOOKSTOCKS,WTR-500,R061,glazing bay,glazing pane (no tag),,False,246.0,356.9,63.01,33.06,0,35.2 long,,single room on interior side,counted,,,,Model not supplied
+E-W67,A06.04A (east),453,PROMOTION & MARKETING,WTR-500,R065,glazing bay,glazing pane (no tag),,False,282.6,356.9,67.07,33.06,0,35.2 long,,single room on interior side,counted,,,,Model not supplied
+E-W68,A06.04A (east),453,PROMOTION & MARKETING,WTR-500,R065,glazing bay,glazing pane (no tag),,False,319.2,356.9,71.14,33.06,0,35.2 long,,single room on interior side,counted,,,,Model not supplied
+E-W69,A06.04A (east),453,PROMOTION & MARKETING,WTR-500,R065,glazing bay,glazing pane (no tag),,False,355.0,356.9,75.12,33.06,0,33.6 long,,single room on interior side,counted,,,,Model not supplied
+E-W70,A06.04A (east),411,HCO AREA SECRETARY,,,glazing bay,glazing pane (no tag),,False,1085.3,379.0,156.27,30.62,90,27.0 long,,single room on interior side,window bay in room without WTR leader,,,,Model not supplied
+E-W71,A06.04A (east),421,DEPARTMENT 3,WTR-500,R032,glazing bay,glazing pane (no tag),,False,1358.5,642.7,186.62,1.31,0,27.0 long,,single room on interior side,counted,,,,Model not supplied
+E-A01,A06.04A (east),419,RESTROOM,RR-702,R029,wall-mounted bar,untagged wall symbol,,False,1091.2,667.2,156.93,-1.41,,15.0 long,,drawn on wall face; open side +y clears wall at 0.8 pt; first room region on that side,counted,,,,Model not supplied
+E-A02,A06.04A (east),460,WOMEN'S RR,RR-701,R074,wall-mounted bar,untagged wall symbol,,False,616.2,478.9,104.15,19.52,,58.6 long,,drawn on wall face; open side +y clears wall at 0.5 pt; first room region on that side,counted,,,,Model not supplied
+E-A03,A06.04A (east),457,MEN'S RR,RR-702,R073,wall-mounted bar,untagged wall symbol,,False,368.9,533.2,76.67,13.48,,14.2 long,,drawn on wall face; open side +x clears wall at 0.8 pt; first room region on that side,counted,,,,Model not supplied
+E-A04,A06.04A (east),457,MEN'S RR,RR-700,R072,wall-mounted bar,untagged wall symbol,,False,472.2,498.4,88.15,17.35,,22.6 long,,drawn on wall face; open side +y clears wall at 0.5 pt; first room region on that side,counted,,,,Model not supplied
+E-A05,A06.04A (east),429,RESTROOM,RR-702,R051,wall-mounted bar,untagged wall symbol,,False,588.0,712.8,101.01,-6.48,,14.3 long,,drawn on wall face; open side +x clears wall at 0.5 pt; first room region on that side,counted,,,,Model not supplied
+E-A06,A06.04A (east),460,WOMEN'S RR,RR-702,R075,wall-mounted bar,untagged wall symbol,,False,663.6,565.4,109.41,9.9,,14.3 long,,drawn on wall face; open side -y clears wall at 1.2 pt; first room region on that side,counted,,,,Model not supplied
+W-T001,A06.04B (west),444,EXECUTIVE DIRECTOR DAY,MFN-400,R104,S-5,architect in-symbol tag,S-5,False,934.8,370.0,-18.89,30.22,-90.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+W-T002,A06.04B (west),444,EXECUTIVE DIRECTOR DAY,MFN-402,R105,S-9,architect in-symbol tag,S-9,False,889.9,362.4,-23.88,31.06,-90.0,15.0x14.2,,point inside room region,counted,,,,Model not supplied
+W-T003,A06.04B (west),444,EXECUTIVE DIRECTOR DAY,MFN-402,R105,S-9,architect in-symbol tag,S-9,False,889.9,384.3,-23.88,28.62,-90.0,15.0x14.3,,point inside room region,counted,,,,Model not supplied
+W-T004,A06.04B (west),444,EXECUTIVE DIRECTOR DAY,MFN-400,R104,S-5,architect in-symbol tag,S-5,False,934.9,435.3,-18.87,22.95,0.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+W-T005,A06.04B (west),445,DIRECTOR FOUNDATION,MFN-400,R107,S-5,architect in-symbol tag,S-5,False,1001.4,435.3,-11.49,22.95,0.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+W-T006,A06.04B (west),445,DIRECTOR FOUNDATION,MFN-400,R107,S-5,architect in-symbol tag,S-5,False,1001.2,369.5,-11.51,30.26,-90.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+W-T007,A06.04B (west),445,DIRECTOR FOUNDATION,MFN-402,R108,S-9,architect in-symbol tag,S-9,False,1047.8,355.6,-6.33,31.82,-90.0,15.0x14.3,,point inside room region,counted,,,,Model not supplied
+W-T008,A06.04B (west),445,DIRECTOR FOUNDATION,MFN-402,R108,S-9,architect in-symbol tag,S-9,False,1047.8,382.6,-6.33,28.81,-90.0,15.0x14.3,,point inside room region,counted,,,,Model not supplied
+W-T009,A06.04B (west),446,FLAG REP,MFN-402,R111,S-9,architect in-symbol tag,S-9,False,1092.9,373.0,-1.32,29.88,-90.0,15.0x14.2,,point inside room region,counted,,,,Model not supplied
+W-T010,A06.04B (west),446,FLAG REP,MFN-400,R110,S-5,architect in-symbol tag,S-5,False,1133.2,373.4,3.16,29.84,-90.0,15.0x14.9,,point inside room region,counted,,,,Model not supplied
+W-T011,A06.04B (west),447,CONFERENCE ROOM,MFN-414,R112,S-6,architect in-symbol tag,S-6,False,1264.7,364.9,17.77,30.78,0.0,,,point inside room region,counted,,,,Model not supplied
+W-T012,A06.04B (west),447,CONFERENCE ROOM,MFN-414,R112,S-6,architect in-symbol tag,S-6,False,1195.4,385.0,10.07,28.54,-90.0,,,point inside room region,counted,,,,Model not supplied
+W-T013,A06.04B (west),447,CONFERENCE ROOM,MFN-414,R112,S-6,architect in-symbol tag,S-6,False,1263.5,405.3,17.63,26.28,0.0,81.0x31.4,,point on wall/barrier; single adjacent room within 1.5 pt,counted,,,,Model not supplied
+W-T014,A06.04B (west),447,CONFERENCE ROOM,MFN-414,R112,S-6,architect in-symbol tag,S-6,False,1287.7,386.2,20.32,28.42,-90.0,,,point inside room region,counted,,,,Model not supplied
+W-T015,A06.04B (west),447,CONFERENCE ROOM,MFN-414,R112,S-6,architect in-symbol tag,S-6,False,1219.6,405.3,12.75,26.28,0.0,81.0x31.4,,point on wall/barrier; single adjacent room within 1.5 pt,counted,,,,Model not supplied
+W-T016,A06.04B (west),447,CONFERENCE ROOM,MFN-414,R112,S-6,architect in-symbol tag,S-6,False,1219.1,364.9,12.7,30.78,0.0,,,point inside room region,counted,,,,Model not supplied
+W-T017,A06.04B (west),443,EXECUTIVES OFFICE,CC-900,R101,CC-1,architect in-symbol tag,CC-1,False,1078.6,446.7,-2.91,21.69,-90.0,13.6x9.0,,point inside room region,counted,,,,Model not supplied
+W-T018,A06.04B (west),443,EXECUTIVES OFFICE,CC-900,R101,CC-1,architect in-symbol tag,CC-1,False,1078.6,454.6,-2.91,20.81,-90.0,13.6x9.0,,point inside room region,counted,,,,Model not supplied
+W-T019,A06.04B (west),443,EXECUTIVES OFFICE,CC-900,R101,CC-1,architect in-symbol tag,CC-1,False,1078.6,464.7,-2.91,19.69,-90.0,13.6x9.0,,point inside room region,counted,,,,Model not supplied
+W-T020,A06.04B (west),448,INVEST/ LEGAL,MFN-400,R115,S-5,architect in-symbol tag,S-5,False,1428.3,365.5,35.95,30.71,-90.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+W-T021,A06.04B (west),448,INVEST/ LEGAL,MFN-400,R115,S-5,architect in-symbol tag,S-5,False,1362.9,365.0,28.68,30.76,-90.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+W-T022,A06.04B (west),449,SOCIAL REFORM / PR,MFN-400,R117,S-5,architect in-symbol tag,S-5,False,1478.4,367.3,41.51,30.52,-90.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+W-T023,A06.04B (west),449,SOCIAL REFORM / PR,MFN-400,R117,S-5,architect in-symbol tag,S-5,False,1543.4,367.7,48.73,30.47,-90.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+W-T024,A06.04B (west),450,DIRECTOR SPECIAL AFFAIRS,MFN-400,R119,S-5,architect in-symbol tag,S-5,False,1349.2,532.3,27.15,12.18,0.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+W-T025,A06.04B (west),450,DIRECTOR SPECIAL AFFAIRS,MFN-401,R120,S-2,architect in-symbol tag,S-2,False,1339.3,491.4,26.06,16.72,0.0,18.0x18.0,,point inside room region,counted,,,,Model not supplied
+W-T026,A06.04B (west),451,SPECIAL AFFAIRS,MFN-412,R124,S-4,architect in-symbol tag,S-4,False,1482.7,487.9,41.99,17.11,0.0,55.6x27.0,,point inside room region,counted,,,,Model not supplied
+W-T027,A06.04B (west),451,SPECIAL AFFAIRS,MFN-410,R123,S-3,architect in-symbol tag,S-3,False,1428.8,517.9,36.0,13.78,-90.0,21.0x21.0,,point inside room region,counted,,,,Model not supplied
+W-T028,A06.04B (west),451,SPECIAL AFFAIRS,MFN-410,R123,S-3,architect in-symbol tag,S-3,False,1428.8,539.8,36.0,11.35,-90.0,21.0x21.0,,point inside room region,counted,,,,Model not supplied
+W-T029,A06.04B (west),451,SPECIAL AFFAIRS,MFN-410,R123,S-3,architect in-symbol tag,S-3,False,1511.6,517.9,45.2,13.78,-90.0,21.0x21.0,,point inside room region,counted,,,,Model not supplied
+W-T030,A06.04B (west),451,SPECIAL AFFAIRS,MFN-410,R123,S-3,architect in-symbol tag,S-3,False,1511.6,539.8,45.2,11.35,-90.0,21.0x21.0,,point inside room region,counted,,,,Model not supplied
+W-T031,A06.04B (west),451,SPECIAL AFFAIRS,MFN-305,R121,T-5,architect in-symbol tag,T-5,False,1431.4,484.4,36.29,17.5,0.0,14.9x14.9,,point inside room region,counted,,,,Model not supplied
+W-T032,A06.04B (west),451,SPECIAL AFFAIRS,MFN-305,R121,T-5,architect in-symbol tag,T-5,False,1508.3,484.4,44.84,17.5,0.0,15.0x14.9,,point inside room region,counted,,,,Model not supplied
+W-T033,A06.04B (west),451,SPECIAL AFFAIRS,MFN-306,R122,T-6,architect in-symbol tag,T-6,False,1470.7,530.8,40.65,12.34,-90.0,27.0x36.4,,point inside room region,counted,,,,Model not supplied
+W-T034,A06.04B (west),450,DIRECTOR SPECIAL AFFAIRS,MFN-401,R120,S-2,architect in-symbol tag,S-2,False,1361.0,491.4,28.47,16.72,0.0,18.0x18.0,,point inside room region,counted,,,,Model not supplied
+W-T035,A06.04B (west),443,EXECUTIVES OFFICE,MFN-400,R102,S-5,architect in-symbol tag,S-5,False,1213.3,526.1,12.05,12.87,-90.0,15.0x14.9,,point inside room region,counted,,,,Model not supplied
+W-T036,A06.04B (west),443,EXECUTIVES OFFICE,MFN-400,R102,S-5,architect in-symbol tag,S-5,False,1213.3,571.1,12.05,7.87,-90.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+W-T037,A06.04B (west),443,EXECUTIVES OFFICE,MFN-400,R102,S-5,architect in-symbol tag,S-5,False,1115.7,571.3,1.21,7.84,-90.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+W-T038,A06.04B (west),443,EXECUTIVES OFFICE,MFN-400,R102,S-5,architect in-symbol tag,S-5,False,1115.7,526.2,1.21,12.85,-90.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+W-T039,A06.04B (west),443,EXECUTIVES OFFICE,MFN-400,R102,S-5,architect in-symbol tag,S-5,False,1049.1,571.3,-6.19,7.84,-90.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+W-T040,A06.04B (west),443,EXECUTIVES OFFICE,MFN-400,R102,S-5,architect in-symbol tag,S-5,False,1049.1,526.2,-6.19,12.85,-90.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+W-T041,A06.04B (west),443,EXECUTIVES OFFICE,MFN-400,R102,S-5,architect in-symbol tag,S-5,False,949.6,572.2,-17.24,7.75,-90.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+W-T042,A06.04B (west),443,EXECUTIVES OFFICE,MFN-400,R102,S-5,architect in-symbol tag,S-5,False,949.6,526.2,-17.24,12.85,-90.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+W-T043,A06.04B (west),439,LRH COMM,MFN-400,R094,S-5,architect in-symbol tag,S-5,False,891.2,689.0,-23.73,-5.23,-90.0,15.0x14.9,,point inside room region,counted,,,,Model not supplied
+W-T044,A06.04B (west),439,LRH COMM,MFN-402,R095,S-9,architect in-symbol tag,S-9,False,936.3,677.3,-18.72,-3.93,-90.0,15.0x14.2,,point inside room region,counted,,,,Model not supplied
+W-T045,A06.04B (west),439,LRH COMM,MFN-402,R095,S-9,architect in-symbol tag,S-9,False,936.3,699.8,-18.72,-6.43,-90.0,15.0x14.3,,point inside room region,counted,,,,Model not supplied
+W-T046,A06.04B (west),440,EXEC ESTO,MFN-400,R097,S-5,architect in-symbol tag,S-5,False,1026.8,689.3,-8.67,-5.26,-90.0,15.0x14.9,,point inside room region,counted,,,,Model not supplied
+W-T047,A06.04B (west),440,EXEC ESTO,MFN-402,R098,S-9,architect in-symbol tag,S-9,False,983.2,688.4,-13.51,-5.17,-90.0,15.0x14.2,,point inside room region,counted,,,,Model not supplied
+W-T048,A06.04B (west),442,FINANCE OFFICE,MFN-400,R100,S-5,architect in-symbol tag,S-5,False,1209.9,689.3,11.68,-5.27,-90.0,15.0x14.9,,point inside room region,counted,,,,Model not supplied
+W-T049,A06.04B (west),442,FINANCE OFFICE,MFN-400,R100,S-5,architect in-symbol tag,S-5,False,1147.0,688.9,4.69,-5.23,-90.0,15.0x14.9,,point inside room region,counted,,,,Model not supplied
+W-T050,A06.04B (west),438,ESTO NW OFFICE,MFN-400,R092,S-5,architect in-symbol tag,S-5,False,893.2,746.3,-23.51,-11.6,0.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+W-T051,A06.04B (west),438,ESTO NW OFFICE,MFN-400,R092,S-5,architect in-symbol tag,S-5,False,893.6,781.4,-23.46,-15.5,0.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+W-T052,A06.04B (west),438,ESTO NW OFFICE,MFN-400,R092,S-5,architect in-symbol tag,S-5,False,893.2,846.5,-23.51,-22.73,0.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+W-T053,A06.04B (west),437,ESTO INTERVIEW,MFN-400,R089,S-5,architect in-symbol tag,S-5,False,1004.9,829.3,-11.1,-20.82,0.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+W-T054,A06.04B (west),437,ESTO INTERVIEW,MFN-402,R090,S-9,architect in-symbol tag,S-9,False,1004.5,788.1,-11.14,-16.25,0.0,14.3x15.0,,point inside room region,counted,,,,Model not supplied
+W-T055,A06.04B (west),436,ESTATES MANAGER,MFN-400,R082,S-5,architect in-symbol tag,S-5,False,1210.3,827.1,11.72,-20.58,0.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+W-T056,A06.04B (west),436,ESTATES MANAGER,MFN-400,R082,S-5,architect in-symbol tag,S-5,False,1264.4,827.1,17.74,-20.58,0.0,15.0x14.9,,point inside room region,counted,,,,Model not supplied
+W-T057,A06.04B (west),436,ESTATES MANAGER,MFN-417,R083,S-14,architect in-symbol tag,S-14,False,1162.2,781.9,6.38,-15.56,0.0,18.0x11.8,,point inside room region,counted,,,,Model not supplied
+W-T058,A06.04B (west),436,ESTATES MANAGER,MFN-900,R084,T-11,architect in-symbol tag,T-11,False,1163.5,765.9,6.53,-13.78,0.0,72.0x22.4,,point inside room region,counted,,,,Model not supplied
+W-T059,A06.04B (west),433A,CENTRAL FILES,MFN-400,R080,S-5,architect in-symbol tag,S-5,False,1356.0,839.2,27.91,-21.92,-90.0,15.0x14.9,,point inside room region,counted,,,,Model not supplied
+W-T060,A06.04B (west),433A,CENTRAL FILES,MFN-400,R080,S-5,architect in-symbol tag,S-5,False,1356.0,803.1,27.91,-17.91,-90.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+W-T061,A06.04B (west),433A,CENTRAL FILES,MFN-400,R080,S-5,architect in-symbol tag,S-5,False,1356.0,767.1,27.91,-13.91,-90.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+W-T062,A06.04B (west),433A,CENTRAL FILES,MFN-400,R080,S-5,architect in-symbol tag,S-5,False,1418.7,839.2,34.88,-21.92,-90.0,15.0x14.9,,point inside room region,counted,,,,Model not supplied
+W-T063,A06.04B (west),433A,CENTRAL FILES,MFN-400,R080,S-5,architect in-symbol tag,S-5,False,1418.7,803.1,34.88,-17.91,-90.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+W-T064,A06.04B (west),433A,CENTRAL FILES,MFN-400,R080,S-5,architect in-symbol tag,S-5,False,1418.7,767.1,34.88,-13.91,-90.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+W-T065,A06.04B (west),433A,CENTRAL FILES,MFN-400,R080,S-5,architect in-symbol tag,S-5,False,1472.2,839.2,40.83,-21.92,-90.0,15.0x14.9,,point inside room region,counted,,,,Model not supplied
+W-T066,A06.04B (west),433A,CENTRAL FILES,MFN-400,R080,S-5,architect in-symbol tag,S-5,False,1472.2,803.1,40.83,-17.91,-90.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+W-T067,A06.04B (west),433A,CENTRAL FILES,MFN-400,R080,S-5,architect in-symbol tag,S-5,False,1472.2,767.1,40.83,-13.91,-90.0,15.0x15.0,,point inside room region,counted,,,,Model not supplied
+W-T068,A06.04B (west),433A,CENTRAL FILES,MFN-400,R080,S-5,architect in-symbol tag,S-5,False,1534.4,839.2,47.73,-21.92,-90.0,14.4x14.9,,point inside room region,counted,,,,Model not supplied
+W-T069,A06.04B (west),433A,CENTRAL FILES,MFN-400,R080,S-5,architect in-symbol tag,S-5,False,1534.4,803.1,47.73,-17.91,-90.0,14.4x15.0,,point inside room region,counted,,,,Model not supplied
+W-T070,A06.04B (west),433A,CENTRAL FILES,MFN-400,R080,S-5,architect in-symbol tag,S-5,False,1534.4,767.1,47.73,-13.91,-90.0,14.4x15.0,,point inside room region,counted,,,,Model not supplied
+W-T071,A06.04B (west),433A,CENTRAL FILES,MFN-325,R079,O-3,architect in-symbol tag,O-3,False,1289.1,782.5,20.48,-15.62,-90.0,9.0x40.0,,point inside room region,counted,,,,Model not supplied
+W-T072,A06.04B (west),433A,CENTRAL FILES,,,O-1,architect in-symbol tag,O-1,False,1289.1,829.2,20.48,-20.81,-90.0,9.0x53.4,,point inside room region,not coded in this room,,,,Model not supplied
+W-T073,A06.04B (west),433A,CENTRAL FILES,MFN-323,R078,D-8.1,architect in-symbol tag,D-8.1,False,1298.7,813.1,21.55,-19.02,-90.0,22.6x94.6,,point inside room region,counted,,,,Model not supplied
+W-T074,A06.04B (west),433A,CENTRAL FILES,MFN-320,R077,B-11.3,architect in-symbol tag,B-11.3,False,1441.5,768.5,37.41,-14.06,-90.0,9.0x22.6,,point inside room region,counted,,,,Model not supplied
+W-T075,A06.04B (west),433A,CENTRAL FILES,MFN-320,R077,B-11.3,architect in-symbol tag,B-11.3,False,1441.5,790.6,37.41,-16.52,-90.0,9.0x22.6,,point inside room region,counted,,,,Model not supplied
+W-T076,A06.04B (west),433A,CENTRAL FILES,MFN-320,R077,B-11.3,architect in-symbol tag,B-11.3,False,1441.5,814.9,37.41,-19.22,-90.0,9.0x22.4,,point inside room region,counted,,,,Model not supplied
+W-T077,A06.04B (west),433A,CENTRAL FILES,MFN-320,R077,B-11.3,architect in-symbol tag,B-11.3,False,1441.5,837.0,37.41,-21.68,-90.0,9.0x22.4,,point inside room region,counted,,,,Model not supplied
+W-T078,A06.04B (west),433A,CENTRAL FILES,MFN-320,R077,B-11.3,architect in-symbol tag,B-11.3,False,1450.2,768.5,38.37,-14.06,-90.0,9.0x22.6,,point inside room region,counted,,,,Model not supplied
+W-T079,A06.04B (west),433A,CENTRAL FILES,MFN-320,R077,B-11.3,architect in-symbol tag,B-11.3,False,1450.2,790.6,38.37,-16.52,-90.0,9.0x22.6,,point inside room region,counted,,,,Model not supplied
+W-T080,A06.04B (west),433A,CENTRAL FILES,MFN-320,R077,B-11.3,architect in-symbol tag,B-11.3,False,1450.2,814.9,38.37,-19.22,-90.0,9.0x22.4,,point inside room region,counted,,,,Model not supplied
+W-T081,A06.04B (west),433A,CENTRAL FILES,MFN-320,R077,B-11.3,architect in-symbol tag,B-11.3,False,1450.2,837.0,38.37,-21.68,-90.0,9.0x22.4,,point inside room region,counted,,,,Model not supplied
+W-T082,A06.04B (west),433A,CENTRAL FILES,MFN-301,R076,D-13,architect in-symbol tag,D-13,False,1376.4,763.0,30.17,-13.45,-90.0,22.4x36.0,,point inside room region,counted,,,,Model not supplied
+W-T083,A06.04B (west),433A,CENTRAL FILES,MFN-301,R076,D-13,architect in-symbol tag,D-13,False,1376.4,807.5,30.17,-18.4,-90.0,22.4x36.0,,point inside room region,counted,,,,Model not supplied
+W-T084,A06.04B (west),433A,CENTRAL FILES,MFN-301,R076,D-13,architect in-symbol tag,D-13,False,1376.4,835.0,30.17,-21.45,-90.0,,,point inside room region,counted,,,,Model not supplied
+W-T085,A06.04B (west),433A,CENTRAL FILES,MFN-301,R076,D-13,architect in-symbol tag,D-13,False,1398.4,763.0,32.63,-13.45,-90.0,22.6x36.0,,point inside room region,counted,,,,Model not supplied
+W-T086,A06.04B (west),433A,CENTRAL FILES,MFN-301,R076,D-13,architect in-symbol tag,D-13,False,1398.4,807.5,32.63,-18.4,-90.0,22.6x36.0,,point inside room region,counted,,,,Model not supplied
+W-T087,A06.04B (west),433A,CENTRAL FILES,MFN-301,R076,D-13,architect in-symbol tag,D-13,False,1398.4,835.0,32.63,-21.45,-90.0,22.6x36.0,,point inside room region,counted,,,,Model not supplied
+W-T088,A06.04B (west),433A,CENTRAL FILES,MFN-301,R076,D-13,architect in-symbol tag,D-13,False,1493.4,763.0,43.17,-13.45,-90.0,22.4x36.0,,point inside room region,counted,,,,Model not supplied
+W-T089,A06.04B (west),433A,CENTRAL FILES,MFN-301,R076,D-13,architect in-symbol tag,D-13,False,1493.4,807.5,43.17,-18.4,-90.0,22.4x36.0,,point inside room region,counted,,,,Model not supplied
+W-T090,A06.04B (west),433A,CENTRAL FILES,MFN-301,R076,D-13,architect in-symbol tag,D-13,False,1493.4,835.0,43.17,-21.45,-90.0,22.4x36.0,,point inside room region,counted,,,,Model not supplied
+W-T091,A06.04B (west),433A,CENTRAL FILES,MFN-301,R076,D-13,architect in-symbol tag,D-13,False,1515.4,763.0,45.63,-13.45,-90.0,22.6x36.0,,point inside room region,counted,,,,Model not supplied
+W-T092,A06.04B (west),433A,CENTRAL FILES,MFN-301,R076,D-13,architect in-symbol tag,D-13,False,1515.4,807.5,45.63,-18.4,-90.0,22.6x36.0,,point inside room region,counted,,,,Model not supplied
+W-T093,A06.04B (west),433A,CENTRAL FILES,MFN-301,R076,D-13,architect in-symbol tag,D-13,False,1515.4,835.0,45.63,-21.45,-90.0,22.6x36.0,,point inside room region,counted,,,,Model not supplied
+W-T094,A06.04B (west),437,ESTO INTERVIEW,AUD-300.1LF,R086,D-6,architect in-symbol tag,D-6,False,1001.5,808.2,-11.47,-18.48,0.0,45.0x22.4,W-S01,point inside room region,counted,,,,Model not supplied
+W-T095,A06.04B (west),437,ESTO INTERVIEW,AUD-300.1LF,R086,L,architect in-symbol tag,L,False,984.7,832.9,-13.34,-21.22,0.0,11.3x25.9,W-S01,point inside room region,counted,,,,Model not supplied
+W-T096,A06.04B (west),437,ESTO INTERVIEW,AUD-300.1LF,R086,F,architect in-symbol tag,F,False,985.6,783.8,-13.25,-15.77,0.0,11.3x27.0,W-S01,point inside room region,counted,,,,Model not supplied
+W-T097,A06.04B (west),437,ESTO INTERVIEW,AUD-320,R087,B-5A.4,architect in-symbol tag,B-5A.4,False,1073.8,811.2,-3.44,-18.81,-90.0,9.0x27.0,,point inside room region,counted,,,,Model not supplied
+W-T098,A06.04B (west),437,ESTO INTERVIEW,AUD-320,R087,B-5A.4,architect in-symbol tag,B-5A.4,False,1073.8,837.8,-3.44,-21.77,-90.0,9.0x27.0,,point inside room region,counted,,,,Model not supplied
+W-T099,A06.04B (west),437,ESTO INTERVIEW,AUD-321,R088,D-3,architect in-symbol tag,D-3,False,1001.5,852.5,-11.47,-23.4,0.0,45.0x13.4,,point inside room region,counted,,,,Model not supplied
+W-T100,A06.04B (west),447,CONFERENCE ROOM,MFN-414,R112,S-6,architect in-symbol tag,S-6,False,1241.5,405.3,15.19,26.28,0.0,81.0x31.4,,point on wall/barrier; single adjacent room within 1.5 pt,counted,,,,Model not supplied
+W-T101,A06.04B (west),447,CONFERENCE ROOM,MFN-414,R112,S-6,architect in-symbol tag,S-6,False,1241.2,364.9,15.15,30.78,0.0,,,point inside room region,counted,,,,Model not supplied
+W-T102,A06.04B (west),442,FINANCE OFFICE,EQP-900,R099,E-5,architect in-symbol tag,E-5,False,1122.4,686.6,1.96,-4.97,-90.0,12.8x14.3,,point inside room region,counted,,,,Model not supplied
+W-T103,A06.04B (west),444,EXECUTIVE DIRECTOR DAY,,,P1,dealer component tag,P1,False,920.7,449.9,-20.46,21.33,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T104,A06.04B (west),444,EXECUTIVE DIRECTOR DAY,,,D11,dealer component tag,D11,False,942.6,456.5,-18.02,20.6,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T105,A06.04B (west),444,EXECUTIVE DIRECTOR DAY,,,P1,dealer component tag,P1,False,910.8,397.0,-21.55,27.21,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T106,A06.04B (west),444,EXECUTIVE DIRECTOR DAY,,,D11,dealer component tag,D11,False,910.3,370.0,-21.61,30.21,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T107,A06.04B (west),444,EXECUTIVE DIRECTOR DAY,,,F3,dealer component tag,F3,False,960.6,371.9,-16.02,30.0,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T108,A06.04B (west),444,EXECUTIVE DIRECTOR DAY,,,F3,dealer component tag,F3,False,960.6,394.5,-16.02,27.49,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T109,A06.04B (west),444,EXECUTIVE DIRECTOR DAY,,,D3,dealer component tag,D3,False,936.2,348.9,-18.73,32.56,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T110,A06.04B (west),444,EXECUTIVE DIRECTOR DAY,,,D8,dealer component tag,D8,False,960.0,352.3,-16.09,32.18,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T111,A06.04B (west),445,DIRECTOR FOUNDATION,,,P1,dealer component tag,P1,False,1018.8,449.9,-9.55,21.33,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T112,A06.04B (west),445,DIRECTOR FOUNDATION,,,D11,dealer component tag,D11,False,999.9,456.5,-11.65,20.6,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T113,A06.04B (west),445,DIRECTOR FOUNDATION,,,F3,dealer component tag,F3,False,975.5,394.1,-14.37,27.53,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T114,A06.04B (west),445,DIRECTOR FOUNDATION,,,F3,dealer component tag,F3,False,975.5,371.7,-14.37,30.03,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T115,A06.04B (west),445,DIRECTOR FOUNDATION,,,D8,dealer component tag,D8,False,976.1,351.8,-14.3,32.23,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T116,A06.04B (west),445,DIRECTOR FOUNDATION,,,D3,dealer component tag,D3,False,998.0,348.9,-11.86,32.56,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T117,A06.04B (west),445,DIRECTOR FOUNDATION,,,P1,dealer component tag,P1,False,1025.4,401.1,-8.82,26.76,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T118,A06.04B (west),445,DIRECTOR FOUNDATION,,,D11,dealer component tag,D11,False,1025.8,378.0,-8.77,29.32,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T119,A06.04B (west),446,FLAG REP,,,D3,dealer component tag,D3,False,1136.6,348.9,3.54,32.56,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T120,A06.04B (west),446,FLAG REP,,,D11,dealer component tag,D11,False,1114.8,376.3,1.11,29.51,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T121,A06.04B (west),446,FLAG REP,,,P1,dealer component tag,P1,False,1113.1,394.3,0.93,27.51,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T122,A06.04B (west),446,FLAG REP,,,F3,dealer component tag,F3,False,1083.5,431.8,-2.36,23.34,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T123,A06.04B (west),443,EXECUTIVES OFFICE,,,F3,dealer component tag,F3,False,1180.2,446.0,8.38,21.77,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T124,A06.04B (west),443,EXECUTIVES OFFICE,,,F3,dealer component tag,F3,False,1208.3,445.1,11.5,21.86,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T125,A06.04B (west),443,EXECUTIVES OFFICE,,,F3,dealer component tag,F3,False,1235.6,445.1,14.53,21.86,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T126,A06.04B (west),443,EXECUTIVES OFFICE,,,F3,dealer component tag,F3,False,1262.3,445.1,17.5,21.86,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T127,A06.04B (west),443,EXECUTIVES OFFICE,,,F3,dealer component tag,F3,False,1314.9,503.6,23.34,15.37,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T128,A06.04B (west),443,EXECUTIVES OFFICE,,,F3,dealer component tag,F3,False,1315.7,531.7,23.43,12.25,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T129,A06.04B (west),443,EXECUTIVES OFFICE,,,F3,dealer component tag,F3,False,1315.7,558.8,23.43,9.24,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T130,A06.04B (west),443,EXECUTIVES OFFICE,,,F3,dealer component tag,F3,False,875.4,581.7,-25.49,6.69,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T131,A06.04B (west),443,EXECUTIVES OFFICE,,,F3,dealer component tag,F3,False,874.6,553.6,-25.58,9.81,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T132,A06.04B (west),443,EXECUTIVES OFFICE,,,F3,dealer component tag,F3,False,874.6,526.3,-25.58,12.84,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T133,A06.04B (west),443,EXECUTIVES OFFICE,,,D11,dealer component tag,D11,False,968.8,523.3,-15.11,13.18,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T134,A06.04B (west),443,EXECUTIVES OFFICE,,,D11,dealer component tag,D11,False,969.5,573.9,-15.03,7.55,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T135,A06.04B (west),443,EXECUTIVES OFFICE,,,D3,dealer component tag,D3,False,950.5,541.3,-17.14,11.18,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T136,A06.04B (west),443,EXECUTIVES OFFICE,,,P1,dealer component tag,P1,False,970.5,509.9,-14.93,14.66,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T137,A06.04B (west),443,EXECUTIVES OFFICE,,,P1,dealer component tag,P1,False,971.2,586.7,-14.85,6.13,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T138,A06.04B (west),443,EXECUTIVES OFFICE,,,D3,dealer component tag,D3,False,949.7,554.2,-17.23,9.74,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T139,A06.04B (west),443,EXECUTIVES OFFICE,,,D11,dealer component tag,D11,False,1194.9,573.3,10.01,7.62,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T140,A06.04B (west),443,EXECUTIVES OFFICE,,,D11,dealer component tag,D11,False,1194.1,522.7,9.92,13.24,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T141,A06.04B (west),443,EXECUTIVES OFFICE,,,D3,dealer component tag,D3,False,1213.0,555.3,12.02,9.62,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T142,A06.04B (west),443,EXECUTIVES OFFICE,,,P1,dealer component tag,P1,False,1193.2,586.7,9.82,6.13,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T143,A06.04B (west),443,EXECUTIVES OFFICE,,,P1,dealer component tag,P1,False,1192.3,509.9,9.73,14.66,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T144,A06.04B (west),443,EXECUTIVES OFFICE,,,D3,dealer component tag,D3,False,1213.8,542.4,12.11,11.06,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T145,A06.04B (west),443,EXECUTIVES OFFICE,,,D11,dealer component tag,D11,False,1068.4,523.3,-4.04,13.18,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T146,A06.04B (west),443,EXECUTIVES OFFICE,,,D11,dealer component tag,D11,False,1069.2,573.9,-3.95,7.55,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T147,A06.04B (west),443,EXECUTIVES OFFICE,,,D3,dealer component tag,D3,False,1050.1,541.3,-6.07,11.18,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T148,A06.04B (west),443,EXECUTIVES OFFICE,,,P1,dealer component tag,P1,False,1070.1,509.9,-3.86,14.66,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T149,A06.04B (west),443,EXECUTIVES OFFICE,,,P1,dealer component tag,P1,False,1070.9,586.7,-3.77,6.13,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T150,A06.04B (west),443,EXECUTIVES OFFICE,,,D3,dealer component tag,D3,False,1049.4,554.2,-6.15,9.74,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T151,A06.04B (west),443,EXECUTIVES OFFICE,,,D11,dealer component tag,D11,False,1095.6,573.3,-1.02,7.62,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T152,A06.04B (west),443,EXECUTIVES OFFICE,,,D11,dealer component tag,D11,False,1095.0,522.7,-1.09,13.24,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T153,A06.04B (west),443,EXECUTIVES OFFICE,,,D3,dealer component tag,D3,False,1113.9,555.3,1.01,9.62,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T154,A06.04B (west),443,EXECUTIVES OFFICE,,,P1,dealer component tag,P1,False,1093.9,586.7,-1.21,6.13,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T155,A06.04B (west),443,EXECUTIVES OFFICE,,,P1,dealer component tag,P1,False,1093.1,509.9,-1.3,14.66,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T156,A06.04B (west),443,EXECUTIVES OFFICE,,,D3,dealer component tag,D3,False,1114.6,542.4,1.09,11.06,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T157,A06.04B (west),443,EXECUTIVES OFFICE,,,D3,dealer component tag,D3,False,920.2,527.7,-20.51,12.69,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T158,A06.04B (west),443,EXECUTIVES OFFICE,,,D3,dealer component tag,D3,False,920.2,569.0,-20.51,8.1,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T159,A06.04B (west),443,EXECUTIVES OFFICE,,,D3,dealer component tag,D3,False,1243.5,569.0,15.41,8.1,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T160,A06.04B (west),443,EXECUTIVES OFFICE,,,D3,dealer component tag,D3,False,1243.5,527.6,15.41,12.7,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T161,A06.04B (west),439,LRH COMM,,,D11,dealer component tag,D11,False,913.5,686.5,-21.25,-4.96,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T162,A06.04B (west),439,LRH COMM,,,D3,dealer component tag,D3,False,895.2,704.4,-23.29,-6.94,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T163,A06.04B (west),439,LRH COMM,,,P1,dealer component tag,P1,False,915.1,673.1,-21.07,-3.47,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T164,A06.04B (west),439,LRH COMM,,,F3,dealer component tag,F3,False,909.2,635.4,-21.74,0.72,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T165,A06.04B (west),439,LRH COMM,,,B5A,dealer component tag,B5A,False,888.6,637.0,-24.02,0.54,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T166,A06.04B (west),440,EXEC ESTO,,,F3,dealer component tag,F3,False,1022.7,635.4,-9.12,0.72,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T167,A06.04B (west),440,EXEC ESTO,,,B5A,dealer component tag,B5A,False,1042.6,636.9,-6.92,0.56,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T168,A06.04B (west),440,EXEC ESTO,,,D11,dealer component tag,D11,False,1003.8,693.8,-11.22,-5.77,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T169,A06.04B (west),440,EXEC ESTO,,,P1,dealer component tag,P1,False,1005.0,669.6,-11.09,-3.08,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T170,A06.04B (west),440,EXEC ESTO,,,D3,dealer component tag,D3,False,1025.9,705.6,-8.77,-7.08,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T171,A06.04B (west),441,ADMIN,,,O4,dealer component tag,O4,False,1103.9,657.0,-0.1,-1.68,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T172,A06.04B (west),441,ADMIN,,,O4,dealer component tag,O4,False,1102.5,697.4,-0.26,-6.17,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T173,A06.04B (west),442,FINANCE OFFICE,,,F3,dealer component tag,F3,False,1235.3,641.9,14.5,-0.0,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T174,A06.04B (west),442,FINANCE OFFICE,,,F3,dealer component tag,F3,False,1236.1,670.0,14.59,-3.12,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T175,A06.04B (west),442,FINANCE OFFICE,,,D11,dealer component tag,D11,False,1165.0,686.4,6.69,-4.94,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T176,A06.04B (west),442,FINANCE OFFICE,,,D3,dealer component tag,D3,False,1146.7,704.4,4.66,-6.94,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T177,A06.04B (west),442,FINANCE OFFICE,,,P1,dealer component tag,P1,False,1166.7,673.0,6.87,-3.46,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T178,A06.04B (west),442,FINANCE OFFICE,,,D11,dealer component tag,D11,False,1191.4,685.8,9.63,-4.88,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T179,A06.04B (west),442,FINANCE OFFICE,,,P1,dealer component tag,P1,False,1189.7,673.0,9.43,-3.46,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T180,A06.04B (west),442,FINANCE OFFICE,,,D3,dealer component tag,D3,False,1211.2,705.5,11.82,-7.06,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T181,A06.04B (west),442,FINANCE OFFICE,,,D3,dealer component tag,D3,False,1236.4,690.7,14.62,-5.42,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T182,A06.04B (west),442,FINANCE OFFICE,,,CAB2,dealer component tag,CAB2,False,1126.8,644.1,2.44,-0.24,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T183,A06.04B (west),442,FINANCE OFFICE,,,CAB2,dealer component tag,CAB2,False,1126.8,667.6,2.44,-2.85,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T184,A06.04B (west),442,FINANCE OFFICE,,,D8,dealer component tag,D8,False,1122.3,704.8,1.94,-6.99,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T185,A06.04B (west),442,FINANCE OFFICE,,,O1,dealer component tag,O1,False,1117.1,690.2,1.37,-5.37,-90.3,12.8x14.3,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T186,A06.04B (west),442,FINANCE OFFICE,,,O1,dealer component tag,O1,False,1117.1,648.6,1.37,-0.74,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T187,A06.04B (west),435,CLEANING CLOSET,,,B1,dealer component tag,B1,False,1268.5,635.9,18.19,0.66,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T188,A06.04B (west),438,ESTO NW OFFICE,,,F3,dealer component tag,F3,False,966.3,773.3,-15.39,-14.6,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T189,A06.04B (west),438,ESTO NW OFFICE,,,F3,dealer component tag,F3,False,966.3,795.8,-15.39,-17.1,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T190,A06.04B (west),438,ESTO NW OFFICE,,,CAB2,dealer component tag,CAB2,False,961.4,817.9,-15.93,-19.55,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T191,A06.04B (west),438,ESTO NW OFFICE,,,B5A,dealer component tag,B5A,False,964.2,846.5,-15.63,-22.73,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T192,A06.04B (west),438,ESTO NW OFFICE,,,D8,dealer component tag,D8,False,972.7,839.5,-14.67,-21.96,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T193,A06.04B (west),438,ESTO NW OFFICE,,,D8,dealer component tag,D8,False,972.1,821.4,-14.74,-19.94,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T194,A06.04B (west),438,ESTO NW OFFICE,,,D11,dealer component tag,D11,False,896.3,802.6,-23.17,-17.86,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T195,A06.04B (west),438,ESTO NW OFFICE,,,D3,dealer component tag,D3,False,875.7,776.1,-25.46,-14.91,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T196,A06.04B (west),438,ESTO NW OFFICE,,,P1,dealer component tag,P1,False,912.8,799.1,-21.34,-17.47,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T197,A06.04B (west),438,ESTO NW OFFICE,,,D11,dealer component tag,D11,False,896.5,824.1,-23.14,-20.24,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T198,A06.04B (west),438,ESTO NW OFFICE,,,P1,dealer component tag,P1,False,912.0,827.7,-21.42,-20.64,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T199,A06.04B (west),438,ESTO NW OFFICE,,,D3,dealer component tag,D3,False,875.7,750.3,-25.46,-12.05,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T200,A06.04B (west),438,ESTO NW OFFICE,,,D11,dealer component tag,D11,False,896.3,724.8,-23.17,-9.22,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T201,A06.04B (west),438,ESTO NW OFFICE,,,P1,dealer component tag,P1,False,912.8,728.0,-21.34,-9.56,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T202,A06.04B (west),436,ESTATES MANAGER,,,CAB14,dealer component tag,CAB14,False,1088.6,835.3,-1.8,-21.49,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T203,A06.04B (west),436,ESTATES MANAGER,,,CAB14,dealer component tag,CAB14,False,1088.0,809.5,-1.87,-18.62,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T204,A06.04B (west),436,ESTATES MANAGER,,,CAB14,dealer component tag,CAB14,False,1088.1,782.6,-1.85,-15.63,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T205,A06.04B (west),436,ESTATES MANAGER,,,CAB2,dealer component tag,CAB2,False,1176.2,848.1,7.93,-22.92,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T206,A06.04B (west),436,ESTATES MANAGER,,,D8,dealer component tag,D8,False,1176.6,856.1,7.98,-23.8,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T207,A06.04B (west),436,ESTATES MANAGER,,,F5,dealer component tag,F5,False,1142.1,850.7,4.14,-23.2,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T208,A06.04B (west),436,ESTATES MANAGER,,,D8,dealer component tag,D8,False,1219.5,856.1,12.75,-23.8,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T209,A06.04B (west),436,ESTATES MANAGER,,,D8,dealer component tag,D8,False,1265.0,856.1,17.8,-23.8,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T210,A06.04B (west),436,ESTATES MANAGER,,,P1,dealer component tag,P1,False,1201.0,844.2,10.69,-22.48,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T211,A06.04B (west),436,ESTATES MANAGER,,,P1,dealer component tag,P1,False,1247.2,844.4,15.82,-22.5,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T212,A06.04B (west),448,INVEST/ LEGAL,,,D11,dealer component tag,D11,False,1407.1,370.2,33.59,30.19,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T213,A06.04B (west),448,INVEST/ LEGAL,,,D3,dealer component tag,D3,False,1433.5,349.6,36.52,32.48,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T214,A06.04B (west),448,INVEST/ LEGAL,,,P1,dealer component tag,P1,False,1410.6,386.7,33.98,28.36,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T215,A06.04B (west),448,INVEST/ LEGAL,,,D11,dealer component tag,D11,False,1385.7,370.4,31.21,30.16,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T216,A06.04B (west),448,INVEST/ LEGAL,,,P1,dealer component tag,P1,False,1382.1,386.0,30.81,28.44,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T217,A06.04B (west),448,INVEST/ LEGAL,,,B5A,dealer component tag,B5A,False,1451.1,379.6,38.48,29.15,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T218,A06.04B (west),448,INVEST/ LEGAL,,,B5A,dealer component tag,B5A,False,1332.3,364.8,25.27,30.79,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T219,A06.04B (west),449,SOCIAL REFORM / PR,,,D11,dealer component tag,D11,False,1520.5,370.2,46.19,30.19,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T220,A06.04B (west),449,SOCIAL REFORM / PR,,,P1,dealer component tag,P1,False,1524.0,386.7,46.58,28.36,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T221,A06.04B (west),449,SOCIAL REFORM / PR,,,D11,dealer component tag,D11,False,1499.1,370.4,43.81,30.16,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T222,A06.04B (west),449,SOCIAL REFORM / PR,,,P1,dealer component tag,P1,False,1495.5,386.0,43.41,28.43,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T223,A06.04B (west),449,SOCIAL REFORM / PR,,,B5A,dealer component tag,B5A,False,1567.4,383.3,51.4,28.73,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T224,A06.04B (west),449,SOCIAL REFORM / PR,,,B5A,dealer component tag,B5A,False,1567.4,365.3,51.4,30.73,89.6,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T225,A06.04B (west),449,SOCIAL REFORM / PR,,,CAB2,dealer component tag,CAB2,False,1533.4,429.1,47.62,23.64,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T226,A06.04B (west),449,SOCIAL REFORM / PR,,,D8,dealer component tag,D8,False,1533.8,422.0,47.67,24.44,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T227,A06.04B (west),449,SOCIAL REFORM / PR,,,F3,dealer component tag,F3,False,1562.7,424.8,50.88,24.12,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T228,A06.04B (west),449,SOCIAL REFORM / PR,,,D3,dealer component tag,D3,False,1477.3,349.6,41.39,32.48,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T229,A06.04B (west),449,SOCIAL REFORM / PR,,,D3,dealer component tag,D3,False,1541.9,349.6,48.56,32.48,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T230,A06.04B (west),450,DIRECTOR SPECIAL AFFAIRS,,,P1,dealer component tag,P1,False,1374.3,512.2,29.94,14.41,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T231,A06.04B (west),450,DIRECTOR SPECIAL AFFAIRS,,,D11,dealer component tag,D11,False,1351.2,511.2,27.38,14.52,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T232,A06.04B (west),450,DIRECTOR SPECIAL AFFAIRS,,,D3,dealer component tag,D3,False,1331.1,532.2,25.14,12.19,-90.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T233,A06.04B (west),450,DIRECTOR SPECIAL AFFAIRS,,,CAB2,dealer component tag,CAB2,False,1392.3,565.7,31.94,8.47,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T234,A06.04B (west),450,DIRECTOR SPECIAL AFFAIRS,,,F3,dealer component tag,F3,False,1367.7,565.7,29.21,8.46,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T235,A06.04B (west),450,DIRECTOR SPECIAL AFFAIRS,,,B5A,dealer component tag,B5A,False,1345.6,565.7,26.75,8.46,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T236,A06.04B (west),450,DIRECTOR SPECIAL AFFAIRS,,,B8,dealer component tag,B8,False,1368.1,571.5,29.26,7.82,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T237,A06.04B (west),448,INVEST/ LEGAL,,,D3,dealer component tag,D3,False,1362.7,349.6,28.66,32.48,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T238,A06.04B (west),450,DIRECTOR SPECIAL AFFAIRS,,,CAB15,dealer component tag,CAB15CAB15,True,1336.4,445.3,25.74,21.84,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-T239,A06.04B (west),450,DIRECTOR SPECIAL AFFAIRS,,,CAB15,dealer component tag,CAB15CAB15,True,1358.3,445.3,28.16,21.84,-0.3,,,point inside room region,component tag (no leader code),,,,Model not supplied
+W-W01,A06.04B (west),443,EXECUTIVES OFFICE,WTR-500,R103,glazing bay,glazing pane (no tag),,False,863.7,579.0,-26.79,6.99,90,34.3 long,,single room on interior side,counted,,,,Model not supplied
+W-W02,A06.04B (west),443,EXECUTIVES OFFICE,WTR-500,R103,glazing bay,glazing pane (no tag),,False,863.7,614.9,-26.79,3.0,90,34.3 long,,single room on interior side,counted,,,,Model not supplied
+W-W03,A06.04B (west),439,LRH COMM,WTR-500,R096,glazing bay,glazing pane (no tag),,False,863.7,650.7,-26.79,-0.98,90,34.3 long,,single room on interior side,counted,,,,Model not supplied
+W-W04,A06.04B (west),439,LRH COMM,WTR-500,R096,glazing bay,glazing pane (no tag),,False,863.7,686.6,-26.79,-4.97,90,34.3 long,,single room on interior side,counted,,,,Model not supplied
+W-W05,A06.04B (west),438,ESTO NW OFFICE,WTR-500,R093,glazing bay,glazing pane (no tag),,False,863.7,722.5,-26.79,-8.96,90,34.3 long,,single room on interior side,counted,,,,Model not supplied
+W-W06,A06.04B (west),438,ESTO NW OFFICE,WTR-500,R093,glazing bay,glazing pane (no tag),,False,863.7,758.4,-26.79,-12.94,90,34.3 long,,single room on interior side,counted,,,,Model not supplied
+W-W07,A06.04B (west),438,ESTO NW OFFICE,WTR-500,R093,glazing bay,glazing pane (no tag),,False,863.7,794.3,-26.79,-16.93,90,34.3 long,,single room on interior side,counted,,,,Model not supplied
+W-W08,A06.04B (west),438,ESTO NW OFFICE,WTR-500,R093,glazing bay,glazing pane (no tag),,False,863.7,830.2,-26.79,-20.92,90,34.4 long,,single room on interior side,counted,,,,Model not supplied
+W-W09,A06.04B (west),438,ESTO NW OFFICE,WTR-500,R093,glazing bay,glazing pane (no tag),,False,896.5,865.0,-23.15,-24.79,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+W-W10,A06.04B (west),433A,CENTRAL FILES,WTR-500,R081,glazing bay,glazing pane (no tag),,False,1555.9,865.0,50.12,-24.79,0,27.6 long,,single room on interior side,counted,,,,Model not supplied
+W-W11,A06.04B (west),433A,CENTRAL FILES,WTR-500,R081,glazing bay,glazing pane (no tag),,False,1523.8,865.0,46.56,-24.79,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+W-W12,A06.04B (west),433A,CENTRAL FILES,WTR-500,R081,glazing bay,glazing pane (no tag),,False,1489.0,865.0,42.69,-24.79,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+W-W13,A06.04B (west),433A,CENTRAL FILES,WTR-500,R081,glazing bay,glazing pane (no tag),,False,1454.1,865.0,38.81,-24.79,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+W-W14,A06.04B (west),433A,CENTRAL FILES,WTR-500,R081,glazing bay,glazing pane (no tag),,False,1419.3,865.0,34.95,-24.79,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+W-W15,A06.04B (west),433A,CENTRAL FILES,WTR-500,R081,glazing bay,glazing pane (no tag),,False,1384.4,865.0,31.07,-24.79,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+W-W16,A06.04B (west),433A,CENTRAL FILES,WTR-500,R081,glazing bay,glazing pane (no tag),,False,1349.6,865.0,27.2,-24.79,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+W-W17,A06.04B (west),433A,CENTRAL FILES,WTR-500,R081,glazing bay,glazing pane (no tag),,False,1314.7,865.0,23.32,-24.79,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+W-W18,A06.04B (west),436,ESTATES MANAGER,WTR-500,R085,glazing bay,glazing pane (no tag),,False,1279.9,865.0,19.45,-24.79,0,33.4 long,,"pane spans/adjoins several rooms {'436': 2, '433A': 1}",counted,,,,Model not supplied
+W-W19,A06.04B (west),436,ESTATES MANAGER,WTR-500,R085,glazing bay,glazing pane (no tag),,False,1245.0,865.0,15.58,-24.79,0,33.2 long,,single room on interior side,counted,,,,Model not supplied
+W-W20,A06.04B (west),436,ESTATES MANAGER,WTR-500,R085,glazing bay,glazing pane (no tag),,False,1210.2,865.0,11.71,-24.79,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+W-W21,A06.04B (west),436,ESTATES MANAGER,WTR-500,R085,glazing bay,glazing pane (no tag),,False,1175.4,865.0,7.84,-24.79,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+W-W22,A06.04B (west),436,ESTATES MANAGER,WTR-500,R085,glazing bay,glazing pane (no tag),,False,1140.4,865.0,3.96,-24.79,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+W-W23,A06.04B (west),436,ESTATES MANAGER,WTR-500,R085,glazing bay,glazing pane (no tag),,False,1105.6,865.0,0.09,-24.79,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+W-W24,A06.04B (west),437,ESTO INTERVIEW,WTR-500,R091,glazing bay,glazing pane (no tag),,False,1070.7,865.0,-3.79,-24.79,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+W-W25,A06.04B (west),437,ESTO INTERVIEW,WTR-500,R091,glazing bay,glazing pane (no tag),,False,1035.9,865.0,-7.65,-24.79,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+W-W26,A06.04B (west),437,ESTO INTERVIEW,WTR-500,R091,glazing bay,glazing pane (no tag),,False,1001.0,865.0,-11.53,-24.79,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+W-W27,A06.04B (west),438,ESTO NW OFFICE,WTR-500,R093,glazing bay,glazing pane (no tag),,False,966.2,865.0,-15.4,-24.79,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+W-W28,A06.04B (west),438,ESTO NW OFFICE,WTR-500,R093,glazing bay,glazing pane (no tag),,False,931.3,865.0,-19.28,-24.79,0,33.4 long,,single room on interior side,counted,,,,Model not supplied
+W-W29,A06.04B (west),444,EXECUTIVE DIRECTOR DAY,WTR-500,R106,glazing bay,glazing pane (no tag),,False,897.6,337.7,-23.03,33.8,0,32.6 long,,single room on interior side,counted,,,,Model not supplied
+W-W30,A06.04B (west),444,EXECUTIVE DIRECTOR DAY,WTR-500,R106,glazing bay,glazing pane (no tag),,False,931.8,337.7,-19.23,33.8,0,32.6 long,,single room on interior side,counted,,,,Model not supplied
+W-W31,A06.04B (west),444,EXECUTIVE DIRECTOR DAY,WTR-500,R106,glazing bay,glazing pane (no tag),,False,965.8,337.7,-15.44,33.8,0,32.6 long,,"pane spans/adjoins several rooms {'444': 1, '445': 1}",counted,,,,Model not supplied
+W-W32,A06.04B (west),445,DIRECTOR FOUNDATION,WTR-500,R109,glazing bay,glazing pane (no tag),,False,1000.0,337.7,-11.65,33.8,0,32.5 long,,single room on interior side,counted,,,,Model not supplied
+W-W33,A06.04B (west),445,DIRECTOR FOUNDATION,WTR-500,R109,glazing bay,glazing pane (no tag),,False,1034.1,337.7,-7.85,33.8,0,32.6 long,,single room on interior side,counted,,,,Model not supplied
+W-W34,A06.04B (west),445,DIRECTOR FOUNDATION,WTR-500,R109,glazing bay,glazing pane (no tag),,False,1068.2,337.7,-4.07,33.8,0,32.6 long,,"pane spans/adjoins several rooms {'445': 1, '446': 1}",counted,,,,Model not supplied
+W-W35,A06.04B (west),446,FLAG REP,,,glazing bay,glazing pane (no tag),,False,1102.4,337.7,-0.27,33.8,0,32.6 long,,single room on interior side,window bay in room without WTR leader,,,,Model not supplied
+W-W36,A06.04B (west),446,FLAG REP,,,glazing bay,glazing pane (no tag),,False,1136.5,337.7,3.52,33.8,0,32.6 long,,single room on interior side,window bay in room without WTR leader,,,,Model not supplied
+W-W37,A06.04B (west),447,CONFERENCE ROOM,WTR-500,R113,glazing bay,glazing pane (no tag),,False,1170.6,337.7,7.31,33.8,0,32.6 long,,single room on interior side,counted,,,,Model not supplied
+W-W38,A06.04B (west),447,CONFERENCE ROOM,WTR-500,R113,glazing bay,glazing pane (no tag),,False,1204.8,337.7,11.11,33.8,0,32.6 long,,single room on interior side,counted,,,,Model not supplied
+W-W39,A06.04B (west),447,CONFERENCE ROOM,WTR-500,R113,glazing bay,glazing pane (no tag),,False,1238.8,337.7,14.89,33.8,0,32.6 long,,single room on interior side,counted,,,,Model not supplied
+W-W40,A06.04B (west),447,CONFERENCE ROOM,WTR-500,R113,glazing bay,glazing pane (no tag),,False,1273.0,337.7,18.69,33.8,0,32.5 long,,single room on interior side,counted,,,,Model not supplied
+W-W41,A06.04B (west),447,CONFERENCE ROOM,WTR-500,R113,glazing bay,glazing pane (no tag),,False,1307.1,337.7,22.48,33.8,0,32.6 long,,single room on interior side,counted,,,,Model not supplied
+W-W42,A06.04B (west),448,INVEST/ LEGAL,WTR-500,R116,glazing bay,glazing pane (no tag),,False,1341.2,337.7,26.27,33.8,0,32.6 long,,single room on interior side,counted,,,,Model not supplied
+W-W43,A06.04B (west),448,INVEST/ LEGAL,WTR-500,R116,glazing bay,glazing pane (no tag),,False,1375.4,337.7,30.07,33.8,0,32.6 long,,single room on interior side,counted,,,,Model not supplied
+W-W44,A06.04B (west),448,INVEST/ LEGAL,WTR-500,R116,glazing bay,glazing pane (no tag),,False,1409.5,337.7,33.85,33.8,0,32.6 long,,single room on interior side,counted,,,,Model not supplied
+W-W45,A06.04B (west),448,INVEST/ LEGAL,WTR-500,R116,glazing bay,glazing pane (no tag),,False,1443.6,337.7,37.64,33.8,0,32.6 long,,single room on interior side,counted,,,,Model not supplied
+W-W46,A06.04B (west),449,SOCIAL REFORM / PR,WTR-500,R118,glazing bay,glazing pane (no tag),,False,1477.8,337.7,41.44,33.8,0,32.6 long,,single room on interior side,counted,,,,Model not supplied
+W-W47,A06.04B (west),449,SOCIAL REFORM / PR,WTR-500,R118,glazing bay,glazing pane (no tag),,False,1511.8,337.7,45.23,33.8,0,32.6 long,,single room on interior side,counted,,,,Model not supplied
+W-W48,A06.04B (west),449,SOCIAL REFORM / PR,WTR-500,R118,glazing bay,glazing pane (no tag),,False,1546.0,337.7,49.02,33.8,0,32.5 long,,single room on interior side,counted,,,,Model not supplied
+W-W49,A06.04B (west),443,EXECUTIVES OFFICE,WTR-500,R103,glazing bay,glazing pane (no tag),,False,863.7,543.0,-26.79,10.98,90,34.4 long,,single room on interior side,counted,,,,Model not supplied

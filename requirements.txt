@@ -1,0 +1,10 @@
+pymupdf>=1.24
+numpy
+scipy
+scikit-image
+opencv-python-headless
+shapely>=2
+pillow
+openpyxl
+# model check (optional)
+ifcopenshell>=0.8
